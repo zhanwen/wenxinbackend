@@ -14,4 +14,9 @@
     </bean>
     <!--控制器映射器和控制器适配器-->
     <mvc:annotation-driven></mvc:annotation-driven>
+
+
+    <mvc:resources location="static/" mapping="/images/**"/>
+    <mvc:resources location="static" mapping="/js/**"/>
+    <mvc:resources location="static" mapping="/css/**"/>
 </beans>
