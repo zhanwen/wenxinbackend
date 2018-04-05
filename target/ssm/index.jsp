@@ -55,9 +55,10 @@
                 <li><a href="#contact">研究方向</a></li>
                 <li><a href="#other">科研项目</a></li>
                 <li><a href="#ooo">学术成果</a></li>
+                <li><a href="#ooo">个人中心</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#ooo">登录</a></li>
+                <li><a href="${pageContext.request.contextPath}/user/loginPage">登录</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
