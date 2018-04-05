@@ -7,18 +7,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+/**
+ * @Author: Hanwen
+ * @Date: 2018/4/4 下午4:08
+ */
 @Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserDao userDao;
 
-
-    public List<User> findUser() throws Exception {
-
-        List<User> users = userDao.selectByExample(null);
-
+    public User findUser(String studentNo) throws Exception {
+        User users = userDao.selectByStudentNo(studentNo);
         return users;
     }
 }
