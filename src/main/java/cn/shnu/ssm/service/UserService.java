@@ -10,6 +10,5 @@ import java.util.List;
 public interface UserService {
 
     User findUser(String studentNo)throws Exception;
-
-
+    void updateUser(User user);
 }

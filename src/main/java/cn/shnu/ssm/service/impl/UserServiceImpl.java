@@ -21,4 +21,8 @@ public class UserServiceImpl implements UserService {
         User users = userDao.selectByStudentNo(studentNo);
         return users;
     }
+
+    public void updateUser(User user) {
+        userDao.updataUser(user);
+    }
 }

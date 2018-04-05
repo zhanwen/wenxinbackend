@@ -12,4 +12,5 @@ public interface UserDao {
 
     User selectByStudentNo(@Param("studentNo") String studentNo);
 
+    void updataUser(User user);
 }

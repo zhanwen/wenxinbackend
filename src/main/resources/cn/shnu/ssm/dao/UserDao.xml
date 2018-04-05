@@ -14,4 +14,8 @@
     SELECT * FROM user WHERE StudentNo = ${studentNo}
   </select>
 
+  <update id="updataUser" parameterType="cn.shnu.ssm.pojo.User">
+    update user set imagepath = #{imagepath} where StudentNo = #{studentNo}
+  </update>
+
 </mapper>
