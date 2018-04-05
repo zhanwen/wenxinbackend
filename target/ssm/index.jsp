@@ -1,69 +1,16 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="cn.shnu.ssm.pojo.User" %>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!--  title对应的图标 -->
-    <link rel="icon" href="static/images/favicon.ico">
-
     <title>大数据和物联网实验室</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="static/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="static/css/navbar-fixed-top.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="static/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="static/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favicon.ico">
 </head>
 
 <body>
 
-<!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">大数据和物联网实验室</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">首页</a></li>
-                <li><a href="#about">科研团队</a></li>
-                <li><a href="#contact">研究方向</a></li>
-                <li><a href="#other">科研项目</a></li>
-                <li><a href="#ooo">学术成果</a></li>
-                <li><a href="#ooo">个人中心</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="${pageContext.request.contextPath}/user/loginPage">登录</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</nav>
-
+<jsp:include page="base.jsp" flush="true"/><!--动态包含-->
 <div class="container">
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -77,14 +24,14 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active" >
-                <img src="static/images/timg.jpeg" alt="..." style="width: 1150px; height: 400px;">
+                <img src="${pageContext.request.getContextPath()}/static/images/timg.jpeg" alt="..." style="width: 1150px; height: 400px;">
                 <div class="carousel-caption">
                     <h3>..aaa.</h3>
                     <p>...</p>
                 </div>
             </div>
             <div class="item">
-                <img src="static/images/moon.jpg" alt="..." style="width: 1150px; height: 400px;">
+                <img src="${pageContext.request.getContextPath()}/static/images/moon.jpg" alt="..." style="width: 1150px; height: 400px;">
                 <div class="carousel-caption">
                     <h3>.bbb..</h3>
                     <p>...</p>
@@ -113,7 +60,7 @@
 
         <div class="row st">
             <div class="col-md-3">
-                <img src="static/images/centerinfor.jpg" alt="" class="imgfl">
+                <img src="${pageContext.request.getContextPath()}/static/images/centerinfor.jpg" alt="" class="imgfl">
             </div>
             <div class="col-md-9">
                 <p class="spantitle">上海师范大学大数据和物联网实验室成立于200x年，经过多年的发展，已经成长为上海师范大学计算机学科建设的一支重要力量。
@@ -259,9 +206,9 @@
             <h3 class="glyphicon glyphicon-paperclip">合作伙伴</h3>
         </button>
         <div class="plinks">
-            <a class="a1" href="http://pku.edu.cn/" target="_blank"><img src="static/images/flogo.jpg" alt="" /></a>
-            <a href="http://www.bibdr.org/" target="_blank"><img src="static/images/flogo2.jpg" alt="" /></a>
-            <a href="http://www.bibdr.org/" target="_blank"><img src="static/images/flogo2.jpg" alt="" /></a>
+            <a class="a1" href="http://pku.edu.cn/" target="_blank"><img src="${pageContext.request.getContextPath()}/static/images/flogo.jpg" alt="" /></a>
+            <a href="http://www.bibdr.org/" target="_blank"><img src="${pageContext.request.getContextPath()}/static/images/flogo2.jpg" alt="" /></a>
+            <a href="http://www.bibdr.org/" target="_blank"><img src="${pageContext.request.getContextPath()}/static/images/flogo2.jpg" alt="" /></a>
         </div>
     </div>
     <br>
@@ -274,14 +221,5 @@
 </div> <!-- /container -->
 
 
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="static/js/jquery-3.1.1.min.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="static/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
