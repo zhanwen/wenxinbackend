@@ -104,15 +104,24 @@ public class UserController {
     }
 
     @RequestMapping("profile")
-    public ModelAndView profile(HttpServletRequest request){
+    public ModelAndView profile(HttpServletRequest request) throws Exception{
         ModelAndView modelAndView = new ModelAndView();
-        User user = (User)request.getSession().getAttribute("user");
+        String studentNo = request.getParameter("studentNo");
+        User Iuser = (User)request.getSession().getAttribute("user");
+        if(!Iuser.getStudentNo().equals(studentNo)) {
+            request.getSession().setAttribute("Flag", "2");
+        }else {
+            request.getSession().setAttribute("Flag", "1");
+        }
         request.getSession().setAttribute("active", "profile");
-        if(user == null) {
+        User user = null;
+        if(studentNo == null || "".equals(studentNo)) {
             modelAndView.setViewName("login");
         }else {
+            user = userService.findUser(studentNo);
             modelAndView.setViewName("profile");
         }
+        request.getSession().setAttribute("user", user);
         modelAndView.addObject("user", user);
         return modelAndView;
     }
@@ -163,4 +172,75 @@ public class UserController {
         modelAndView.setViewName("profile");
         return modelAndView;
     }
+
+    @RequestMapping("updateProfilePage")
+    public ModelAndView updateProfilePage(HttpServletRequest request) throws Exception {
+        ModelAndView modelAndView = new ModelAndView();
+        String studentNo = request.getParameter("studentNo");
+        User userSession = (User)request.getSession().getAttribute("user");
+        User user = userService.findUser(studentNo);
+        if(user == null || userSession == null) {
+            modelAndView.setViewName("login");
+            return modelAndView;
+        }
+        if(studentNo != null && user != null && !studentNo.equals(userSession.getStudentNo())){
+            modelAndView.setViewName("profile");
+            return modelAndView;
+        }else {
+            modelAndView.addObject("user", user);
+            modelAndView.setViewName("updateProfile");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("updateProfile")
+    public String updateProfile(HttpServletRequest request) throws Exception {
+        ModelAndView modelAndView = new ModelAndView();
+        User user = (User)request.getSession().getAttribute("user");
+        User uuser = new User();
+        uuser.setStudentNo(user.getStudentNo());
+        String position = request.getParameter("position");
+        String education = request.getParameter("education");
+        String email = request.getParameter("email");
+        String grade = request.getParameter("grade");
+        String introduce = request.getParameter("introduce");
+        String researchResult = request.getParameter("researchResult");
+        String skills = request.getParameter("skills");
+        int change = 0;
+        if(!position.equals(user.getPosition())) {
+            uuser.setPosition(position);
+            change++;
+        }
+        if(!education.equals(user.getEducation())) {
+            uuser.setEducation(education);
+            change++;
+        }
+        if(!email.equals(user.getEmail())) {
+            uuser.setEmail(email);
+            change++;
+        }
+        if(!grade.equals(user.getGrade())) {
+            uuser.setGrade(grade);
+            change++;
+        }
+        if(!introduce.equals(user.getIntroduce())) {
+            uuser.setIntroduce(introduce);
+            change++;
+        }
+        if(!researchResult.equals(user.getResearchResult())) {
+            uuser.setResearchResult(researchResult);
+            change++;
+        }
+        if(!skills.equals(user.getSkills())) {
+            uuser.setSkills(skills);
+            change++;
+        }
+        if(change == 0) {
+            return "forward:profile?studentNo="+user.getStudentNo();
+        }else {
+            userService.updateUserInformation(uuser);
+        }
+        return "forward:profile?studentNo="+user.getStudentNo();
+    }
+
 }

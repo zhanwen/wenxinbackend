@@ -28,6 +28,16 @@ public class User {
 
     private String imagename;
 
+    private String position;
+
+    private String education;
+
+    private String introduce;
+
+    private String researchResult;
+
+    private String skills;
+
     public Integer getId() {
         return id;
     }
@@ -114,5 +124,45 @@ public class User {
 
     public void setImagename(String imagename) {
         this.imagename = imagename;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public String getEducation() {
+        return education;
+    }
+
+    public void setEducation(String education) {
+        this.education = education;
+    }
+
+    public String getIntroduce() {
+        return introduce;
+    }
+
+    public void setIntroduce(String introduce) {
+        this.introduce = introduce;
+    }
+
+    public String getResearchResult() {
+        return researchResult;
+    }
+
+    public void setResearchResult(String researchResult) {
+        this.researchResult = researchResult;
+    }
+
+    public String getSkills() {
+        return skills;
+    }
+
+    public void setSkills(String skills) {
+        this.skills = skills;
     }
 }
