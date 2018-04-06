@@ -8,6 +8,16 @@
     <result column="birthday" jdbcType="DATE" property="birthday" />
     <result column="sex" jdbcType="CHAR" property="sex" />
     <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="grade" jdbcType="VARCHAR" property="grade" />
+    <result column="imagepath" jdbcType="VARCHAR" property="imagepath" />
+    <result column="imagename" jdbcType="VARCHAR" property="imagename" />
+    <result column="position" jdbcType="VARCHAR" property="position" />
+    <result column="education" jdbcType="VARCHAR" property="education" />
+    <result column="introduce" jdbcType="VARCHAR" property="introduce" />
+    <result column="researchResult" jdbcType="VARCHAR" property="researchResult" />
+    <result column="skills" jdbcType="VARCHAR" property="skills" />
+
   </resultMap>
 
   <select id="selectByStudentNo" parameterType="string" resultMap="BaseResultMap">
@@ -18,4 +28,17 @@
     update user set imagepath = #{imagepath} where StudentNo = #{studentNo}
   </update>
 
+<update id="updateUserInformation" parameterType="cn.shnu.ssm.pojo.User">
+    UPDATE user
+    <trim prefix="set" suffixOverrides=",">
+      <if test="position!=null">position=#{position},</if>
+      <if test="education!=null">education=#{education},</if>
+      <if test="email!=null">email=#{email},</if>
+      <if test="grade!=null">grade=#{grade},</if>
+      <if test="introduce!=null">introduce=#{introduce},</if>
+      <if test="researchResult!=null">researchResult=#{researchResult},</if>
+      <if test="skills!=null">skills=#{skills},</if>
+    </trim>
+    WHERE StudentNo = #{studentNo}
+</update>
 </mapper>

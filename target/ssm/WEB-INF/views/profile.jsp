@@ -23,7 +23,7 @@
 </head>
 <body>
 <%
-    User user = (User)session.getAttribute("user");
+    String Flag = (String)session.getAttribute("Flag");
 %>
 <jsp:include page="../../base.jsp" flush="true"/><!--动态包含-->
 <div class="container">
@@ -38,16 +38,19 @@
                 <button style="margin-left: 35px" onclick="return updateImage()">上传头像</button>
             </div>
             <div class="col-xs-10" style="padding-top: 30px">
-                <div class="col-xs-2">
+                <div class="col-xs-3">
                     <p>姓名: &nbsp; ${user.username}</p>
                     <p>学号: &nbsp; ${user.studentNo}</p>
                     <p>性别: &nbsp; <c:if test="${user.sex == '1'}">男</c:if> <c:if test="${user.sex == '2'}">女</c:if></p>
                 </div>
-                <div class="col-xs-5">
-                    <p>邮箱: &nbsp; ${user.address}</p>
-                    <p>年级: &nbsp; ${user.address}</p>
+                <div class="col-xs-3">
+                    <p>职位: &nbsp; <c:if test="${user.position != null}">${user.position}</c:if><c:if test="${user.position == null}">无</c:if></p>
+                    <p>学历: &nbsp; <c:if test="${user.education != null}">${user.education}</c:if><c:if test="${user.education == null}">无</c:if></p>
                 </div>
-
+                <div class="col-xs-4">
+                    <p>邮箱: &nbsp; <c:if test="${user.email != null}">${user.email}</c:if><c:if test="${user.email == null}">无</c:if></p>
+                    <p>年级: &nbsp; <c:if test="${user.grade != null}">${user.grade}</c:if><c:if test="${user.grade == null}">无</c:if></p>
+                </div>
             </div>
         </div>
     </div>
@@ -84,17 +87,19 @@
         </div>
         <div class="panel-body">
             <div class="col-xs-10" style="padding-top: 15px">
-                <div class="col-xs-10">
-                    <p>勇敢的尝试，去闯荡，去拼搏。希望能够遇到自己的知己。</p>
+                <div class="col-md-10">
+                    <span>${user.skills}</span>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="btn-group">
-        <button type="button" class="btn btn-info" style="left: 500px">
-            <a href="#">编辑</a>
-        </button>
+        <c:if test="${flag == 1}">
+            <button type="button" class="btn btn-info" style="left: 500px">
+             <a href="updateProfilePage?studentNo=${user.studentNo}">编辑</a>
+            </button>
+        </c:if>
     </div>
 
 
