@@ -18,7 +18,7 @@
 
 <div class="container-fluid">
     <!-- Main component for a primary marketing message or call to action -->
-    <div class="centerinfo jumbotron" style="margin-top:20px;">
+    <div class="centerinfo jumbotron" style="margin-top:5px;">
         <button type="button" class="btn btn-primary" >
             <span class="glyphicon glyphicon glyphicon-home"></span> 实验室简介
         </button>

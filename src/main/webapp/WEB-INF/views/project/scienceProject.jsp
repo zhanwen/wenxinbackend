@@ -15,7 +15,7 @@
 
 <div class="container">
 
-    <div class="centerinfo jumbotron" style="margin-top:20px;">
+    <div class="centerinfo jumbotron" style="margin-top:5px;">
         <button type="button" class="btn btn-success" >
             <span class="glyphicon glyphicon glyphicon-globe"></span>科研项目
         </button>

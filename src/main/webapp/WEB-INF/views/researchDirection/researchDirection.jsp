@@ -17,7 +17,7 @@
 
 <div class="container">
 
-    <div class="centerinfo jumbotron" style="margin-top:20px;">
+    <div class="centerinfo jumbotron" style="margin-top:5px;">
         <button type="button" class="btn btn-primary" >
             <span class="glyphicon glyphicon-credit-card"></span> 研究方向
         </button>
