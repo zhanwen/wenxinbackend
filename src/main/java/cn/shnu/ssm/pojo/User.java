@@ -40,6 +40,8 @@ public class User {
 
     private int isFinish;
 
+    private String manager;
+
     public Integer getId() {
         return id;
     }
@@ -174,5 +176,13 @@ public class User {
 
     public void setIsFinish(int isFinish) {
         this.isFinish = isFinish;
+    }
+
+    public String getManager() {
+        return manager;
+    }
+
+    public void setManager(String manager) {
+        this.manager = manager;
     }
 }

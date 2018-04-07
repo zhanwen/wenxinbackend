@@ -2,7 +2,7 @@ function loginCheck() {
     //判断用户名
     if($("input[name=inputStudentNo]").val() == null || $("input[name=inputStudentNo]").val() == ""){
         $("input[name=inputStudentNo]").focus();
-        layer.tips('学号不能为空！', '#inputStudentNo', {
+        layer.tips('用户名不能为空！', '#inputStudentNo', {
             tips: [2, '#FF3030'],
             time: 2000
         });
@@ -25,7 +25,7 @@ function loginCheck() {
         contentType:"application/string",
         dataType:"json",
         async:false,
-        url : "login?studentNo="+studentNo+"&pwd="+pwd+"&flag="+flag,
+        url : "manager?studentNo="+studentNo+"&pwd="+pwd+"&flag="+flag,
         success: function (data) {
             datas = data;
         }
@@ -46,7 +46,7 @@ function loginCheck() {
     }
     var str = getRootPath_web();
     if(datas.result == "admin") {
-        window.location.href=str+"/admin/manager";
+        window.location.href=str+"/admin/bWFuYWdlcjEyMw==";
         return false;
     }
     window.location.href=str;

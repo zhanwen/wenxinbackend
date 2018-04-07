@@ -18,7 +18,7 @@
     <div class="centerinfo jumbotron" style="margin-top:5px;">
 
         <div class="list_xueshu_content">
-            <span style="font-family: 微软雅黑;"><span style="font-size: 16px;"><strong>授权专利清单：</strong></span></span>
+            <span style="font-family: 微软雅黑;"><span style="font-size: 16px;"><strong>授权专利清单：</strong></span></span><br>
             <br />
             <ol>
                 <li>杨雅辉，高天辰，沈晴霓，吴中海，一种面向云服务的UCON多义务访问控制方法及系统，国家发明专利，授权专利号：ZL201410066781.4，授权日期：2017.2.15</li>

@@ -1,5 +1,6 @@
 package cn.shnu.ssm.dao;
 
+import cn.shnu.ssm.pojo.Teacher;
 import cn.shnu.ssm.pojo.User;
 import org.apache.ibatis.annotations.Param;
 
@@ -17,4 +18,8 @@ public interface UserDao {
     void updateUserInformation(User uuser);
 
     List<User> findAllUser();
+
+    User findManager(User user);
+
+    List<Teacher> findAllTeacher();
 }

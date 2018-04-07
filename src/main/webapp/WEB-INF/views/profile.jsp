@@ -23,7 +23,7 @@
 </head>
 <body>
 <%
-    String Flag = (String)session.getAttribute("Flag");
+    String Flag = (String)request.getSession().getAttribute("Flag");
 %>
 <jsp:include page="../../base.jsp" flush="true"/><!--动态包含-->
 <div class="container">
@@ -105,7 +105,7 @@
     </div>
 
     <div class="btn-group">
-        <c:if test="${flag == 1}">
+        <c:if test="${sessionScope.Flag == '1'}">
             <button type="button" class="btn btn-info" style="left: 500px">
              <a href="updateProfilePage?studentNo=${user.studentNo}">编辑</a>
             </button>

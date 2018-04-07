@@ -1,6 +1,7 @@
 package cn.shnu.ssm.service.impl;
 
 import cn.shnu.ssm.dao.UserDao;
+import cn.shnu.ssm.pojo.Teacher;
 import cn.shnu.ssm.pojo.User;
 import cn.shnu.ssm.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,5 +33,17 @@ public class UserServiceImpl implements UserService {
 
     public List<User> findAllUser() {
         return userDao.findAllUser();
+    }
+
+    public boolean findManager(String username, String pwd) {
+        User user = new User();
+        user.setStudentNo(username);
+        user.setPassword(pwd);
+        User user2 = userDao.findManager(user);
+        return user2 != null ? true : false;
+    }
+
+    public List<Teacher> findAllTeacher() {
+        return userDao.findAllTeacher();
     }
 }

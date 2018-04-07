@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: zhanghanwen
@@ -39,7 +40,9 @@
 </head>
 
 <body>
-
+<%
+    String active = (String)request.getSession().getAttribute("active");
+%>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -66,8 +69,8 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">学生<span class="sr-only">(current)</span></a></li>
-                <li><a href="${pageContext.request.getContextPath()}/admin/teacher">教师</a></li>
+                <li <c:if test="${active == 'student'}">class='active'</c:if>> <a href="${pageContext.request.getContextPath()}/admin/students">学生<span class="sr-only">(current)</span></a></li>
+                <li <c:if test="${active == 'teacher'}">class='active'</c:if> ><a href="${pageContext.request.getContextPath()}/admin/teacher">教师</a></li>
             </ul>
             <ul class="nav nav-sidebar">
             </ul>
@@ -78,64 +81,22 @@
                 <table class="table table-striped">
                     <thead>
                     <tr>
-                        <th>年级</th>
-                        <th>学号</th>
                         <th>姓名</th>
-                        <th>邮箱</th>
-                        <th>职位</th>
+                        <th>URL</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1,001</td>
-                        <td>Lorem</td>
-                        <td>ipsum</td>
-                        <td>dolor</td>
-                        <td>sit</td>
-                    </tr>
-                    <tr>
-                        <td>1,002</td>
-                        <td>amet</td>
-                        <td>consectetur</td>
-                        <td>adipiscing</td>
-                        <td>elit</td>
-                    </tr>
-
-
+                        <c:forEach items="${teacherList}" var="teacher">
+                            <tr>
+                                <td>${teacher.username}</td>
+                                <td>${teacher.url}</td>
+                            </tr>
+                        </c:forEach>
                     </tbody>
                 </table>
-
-                <%--<nav aria-label="Page navigation" style="margin-left: 350px">--%>
-                    <%--<ul class="pagination">--%>
-                        <%--<li>--%>
-                            <%--<a href="#" aria-label="Previous">--%>
-                                <%--<span aria-hidden="true">&laquo;</span>--%>
-                            <%--</a>--%>
-                        <%--</li>--%>
-                        <%--<li><a href="#">1</a></li>--%>
-                        <%--<li><a href="#">2</a></li>--%>
-                        <%--<li><a href="#">3</a></li>--%>
-                        <%--<li><a href="#">4</a></li>--%>
-                        <%--<li><a href="#">5</a></li>--%>
-                        <%--<li>--%>
-                            <%--<a href="#" aria-label="Next">--%>
-                                <%--<span aria-hidden="true">&raquo;</span>--%>
-                            <%--</a>--%>
-                        <%--</li>--%>
-                    <%--</ul>--%>
-                <%--</nav>--%>
-
             </div>
-
-
         </div>
-
-
-
     </div>
-
-
-
 </div>
 
 <!-- Bootstrap core JavaScript

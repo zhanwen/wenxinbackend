@@ -1,5 +1,6 @@
 package cn.shnu.ssm.service;
 
+import cn.shnu.ssm.pojo.Teacher;
 import cn.shnu.ssm.pojo.User;
 
 import java.util.List;
@@ -15,4 +16,8 @@ public interface UserService {
     void updateUserInformation(User uuser);
 
     List<User> findAllUser();
+
+    boolean findManager(String username, String pwd);
+
+    List<Teacher> findAllTeacher();
 }

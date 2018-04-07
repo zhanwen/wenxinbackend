@@ -16,7 +16,7 @@
 
 <div class="container" style="width: 940px; margin-left: 300px">
     <div class="centerinfo jumbotron" style="margin-top:5px;">
-        <span style="font-size: 14px;"><strong><span style="font-size: 16px;"><span style="font-family: 微软雅黑;">软件著作权：</span></span></strong></span><br />
+        <span style="font-size: 14px;"><strong><span style="font-size: 16px;"><span style="font-family: 微软雅黑;">软件著作权：</span></span></strong></span><br /><br>
         <div class="list_xueshu_content">
             <ol>
                 <li>云存储客户端数据安全服务。著作权登记号 2011SR052487</li>

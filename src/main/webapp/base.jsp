@@ -43,8 +43,7 @@
 </head>
 <body>
 <%
-    User user = (User)session.getAttribute("user");
-    String active = (String)session.getAttribute("active");
+    String active = (String)request.getSession().getAttribute("active");
 %>
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -69,8 +68,8 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <c:choose>
-                    <c:when test="${user!= null}">
-                        <li><a href ="javascript:return false;" style="cursor: default;">${user.getUsername()}</a></li>
+                    <c:when test="${sessionScope.user != null}">
+                        <li><a href ="${pageContext.request.contextPath}/user/profile?studentNo=${sessionScope.user.studentNo}">${sessionScope.user.getUsername()}</a></li>
                         <li><a href="${pageContext.request.contextPath}/user/logout">登出</a></li>
                     </c:when>
                     <c:otherwise>

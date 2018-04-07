@@ -2,6 +2,7 @@ package cn.shnu.ssm.controller;
 
 import cn.shnu.ssm.pojo.User;
 import cn.shnu.ssm.service.UserService;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.FileUtils;
@@ -61,37 +62,50 @@ public class UserController {
     @ResponseBody
     @RequestMapping("login")
     public String login(HttpServletRequest request, HttpServletResponse response, String studentNo, String pwd) throws Exception{
-        Map<String, String> msg = new HashMap<String, String>();
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("result", "");
-        User user = userService.findUser(studentNo);
-        if(user == null) {
-            jsonObject.put("result", "studentNoFalse");
-            return jsonObject.toString();
-        }else {
-            if(pwd.equals(user.getPassword())) {
-                //存入session
-                request.getSession().setAttribute("user", user);
-                request.getSession().setAttribute("active", "home");
-                //使用cookies记录
-                String flag = request.getParameter("flag");
-                request.getSession().setAttribute("flag", flag);
-                //set cookie
-                if(flag!=null && flag.equals("1")){
-                    Cookie cookie = new Cookie("cookie_user", user.getStudentNo()+"-"+user.getPassword());
-                    cookie.setMaxAge(60*60*24*30); //cookie 保存30天
-                    response.addCookie(cookie);
-                }else{
-                    Cookie cookie = new Cookie("cookie_user",user.getStudentNo()+"-"+null);
-                    cookie.setMaxAge(60*60*24*30); //cookie 保存30天
-                    response.addCookie(cookie);
-                }
-            }else {
-                jsonObject.put("result", "pwdFalse");
+        if(studentNo.equals("manager")) {
+            if(adminLogin(studentNo, pwd)) {
+                jsonObject.put("result", "admin");
+                jsonObject.put("username", studentNo);
+                jsonObject.put("password", pwd);
                 return jsonObject.toString();
+            }
+        }else{
+            Map<String, String> msg = new HashMap<String, String>();
+            jsonObject.put("result", "");
+            User user = userService.findUser(studentNo);
+            if(user == null) {
+                jsonObject.put("result", "studentNoFalse");
+                return jsonObject.toString();
+            }else {
+                if(pwd.equals(user.getPassword())) {
+                    //存入session
+                    request.getSession().setAttribute("user", user);
+                    request.getSession().setAttribute("active", "home");
+                    //使用cookies记录
+                    String flag = request.getParameter("flag");
+                    request.getSession().setAttribute("flag", flag);
+                    //set cookie
+                    if(flag!=null && flag.equals("1")){
+                        Cookie cookie = new Cookie("cookie_user", user.getStudentNo()+"-"+user.getPassword());
+                        cookie.setMaxAge(60*60*24*30); //cookie 保存30天
+                        response.addCookie(cookie);
+                    }else{
+                        Cookie cookie = new Cookie("cookie_user",user.getStudentNo()+"-"+null);
+                        cookie.setMaxAge(60*60*24*30); //cookie 保存30天
+                        response.addCookie(cookie);
+                    }
+                }else {
+                    jsonObject.put("result", "pwdFalse");
+                    return jsonObject.toString();
+                }
             }
         }
         return jsonObject.toString();
+    }
+
+    public boolean adminLogin(String username, String pwd) {
+        return userService.findManager(username, pwd);
     }
 
     @RequestMapping("logout")
@@ -109,7 +123,7 @@ public class UserController {
         ModelAndView modelAndView = new ModelAndView();
         String studentNo = request.getParameter("studentNo");
         User Iuser = (User)request.getSession().getAttribute("user");
-        if(Iuser != null && !Iuser.getStudentNo().equals(studentNo)) {
+        if(Iuser == null || (Iuser != null && !Iuser.getStudentNo().equals(studentNo))) {
             request.getSession().setAttribute("Flag", "2");
         }else {
             request.getSession().setAttribute("Flag", "1");
@@ -120,10 +134,14 @@ public class UserController {
             modelAndView.setViewName("login");
         }else {
             user = userService.findUser(studentNo);
-            modelAndView.setViewName("profile");
+            if(user == null) {
+                request.getSession().setAttribute("active", "home");
+                modelAndView.setViewName("index");
+            }else {
+                modelAndView.setViewName("profile");
+                modelAndView.addObject("user", user);
+            }
         }
-        request.getSession().setAttribute("user", user);
-        modelAndView.addObject("user", user);
         return modelAndView;
     }
 
