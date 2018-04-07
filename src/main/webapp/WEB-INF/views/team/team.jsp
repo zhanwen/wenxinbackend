@@ -41,7 +41,7 @@
             <span class="glyphicon glyphicon glyphicon-user icon" style="font-size: 21px;"></span>
             <strong class="teamTitle">团队介绍</strong>
         </h2>
-        <hr class="hr4" style="margin-top: -5px; border:0;background-color:#1e98db;height:1px;"/>
+        <%--<hr class="hr4" style="margin-top: -5px; border:0;background-color:#1e98db;height:1px;"/>--%>
 
         <div class="team-info">
             <div class="teacher clr">

@@ -9,89 +9,46 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>研究团队</title>
-    <link href="${pageContext.request.getContextPath()}/static/css/team.css" rel="stylesheet">
+    <title>研究方向</title>
 </head>
 <body>
 
 <jsp:include page="../../../base.jsp" flush="true"/><!--动态包含-->
 
 <div class="container">
-    <!-- Main component for a primary marketing message or call to action -->
+
     <div class="centerinfo jumbotron" style="margin-top:20px;">
         <button type="button" class="btn btn-primary" >
-            <span class="glyphicon glyphicon glyphicon-home"></span> 实验室简介
+            <span class="glyphicon glyphicon glyphicon-home"></span> 研究方向
         </button>
         <br>
         <br/>
-
         <div class="row st">
             <div class="col-md-3">
                 <img src="${pageContext.request.getContextPath()}/static/images/centerinfor.jpg" alt="" class="imgfl">
             </div>
             <div class="col-md-9">
-                <p class="spantitle">上海师范大学大数据和物联网实验室成立于200x年，经过多年的发展，已经成长为上海师范大学计算机学科建设的一支重要力量。
-                    研究室现有教授1名，副教授x名，讲师x名，在校硕士生 x 名</p>
-            </div>
-
-        </div>
-        <br/>
-
-        <h2 class="team">
-            <span class="glyphicon glyphicon glyphicon-user icon" style="font-size: 21px;"></span>
-            <strong class="teamTitle">团队介绍</strong>
-        </h2>
-        <hr class="hr4" style="margin-top: -5px; border:0;background-color:#1e98db;height:1px;"/>
-
-        <div class="team-info">
-            <div class="teacher clr">
-                <h4>教师:</h4>
-                <hr style=" margin-top: -5px; height:1px;border:none;border-top:1px dashed #9e7e8e;"/>
-                <p style="margin-top: -14px">
-                    <c:forEach items="${teachers}" var="teacher" varStatus="sta">
-                        <a style="margin-right: 150px" href="${teacher.url}">${teacher.username}</a>
-                        <c:if test="${sta.count % 5 == 0}"><br/></c:if>
-                    </c:forEach>
-                </p>
-            </div>
-
-            <div class="master">
-                <div>
-                    <h4 >硕士生:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        毕业硕士生:</h4>
-                </div>
-                <hr style=" margin-top: -5px; height:1px;border:none;border-top:1px dashed #9e7e8e;"/>
-                <div class="row master">
-                    <div class="col-md-6"  style="height:300px; width:500px; border-right:#808080 solid 0.5px">
-                        <c:forEach items="${notFinishStudents}" var="map">
-                            <span class="grade2">${map.key}</span>
-                            <c:forEach items="${map.value}" var="students" varStatus="vs">
-                                <a href="${pageContext.request.getContextPath()}/user/profile?studentNo=${students.studentNo}">${students.username}</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <c:if test="${vs.count % 4 == 0}"><br/></c:if>
-                            </c:forEach>
-                        </c:forEach>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <c:forEach items="${finishStudents}" var="map">
-                            <span class="grade2">${map.key}</span>
-                            <c:forEach items="${map.value}" var="finsihstudents">
-                                <a href="${pageContext.request.getContextPath()}/user/profile?studentNo=${finsihstudents.studentNo}">${finsihstudents.username}</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <c:if test="${vs.count % 4 == 0}"><br/></c:if>
-                            </c:forEach>
-                        </c:forEach>
-                    </div>
-                </div>
+                <p class="spantitle"><strong>大数据和物联网实验室:</strong>&nbsp;&nbsp;主要关注以下三个方面</p>
             </div>
         </div>
+        <br>
+        <br>
+        <hr style="margin-top: -10px">
+        <span><strong>智能：</strong>研究大数据分析与机器学习系统相关的基础理论和方法，研究融合计算智能与群智知识的大规模分布式机器学习系统的优化
+            方法，以及面向系统运维、人力资源、健康医疗、心理咨询、金融科技、精准推荐等领域的深度学习、增强学习、迁移学习等大数据分析技术和系统。</span>
+        <br>
+        <br>
+        <span><strong>安全：</strong>研究大数据、云计算、物联网等新型分布式系统安全的基础理论、方法和关键技术，包括：访问控制、加密共享、
+            隐私计算、隔离计算、可信计算和可信溯源等，以及面向大数据汇聚、交换、共享、分析等场景的安全多方计算、安全态势感知、安全可信评测等关键技术和系统。</span>
+        <br>
+        <br>
+        <span><strong>服务：</strong>研究情境感知计算和智能服务的基础理论和方法，包括：情境元模型、基于大数据的情境模型演化、情境推理、
+            服务发现、服务组合、服务推荐等，以及面向健康养老、生产性服务、互联网教育、公共安全等领域的情境感知计算、智能服务等关键技术和系统。</span>
+        <br>
+        <br>
+
+    </div>
+
 
 
 

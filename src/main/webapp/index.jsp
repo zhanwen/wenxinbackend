@@ -70,7 +70,7 @@
         </div>
         <br/>
         <p>
-            <a class="btn btn-primary" href="../../components/#navbar" role="button">更多 &raquo;</a>
+            <a class="btn btn-primary" href="${pageContext.request.getContextPath()}/team/researhchTeam" role="button">更多 &raquo;</a>
         </p>
 
     </div>
@@ -94,7 +94,7 @@
         <br>
         <br>
         <p>
-            <a class="btn  btn-info" href="../../components/#navbar" role="button">更多 &raquo;</a>
+            <a class="btn  btn-info" href="${pageContext.request.getContextPath()}/research/researchDirection" role="button">更多 &raquo;</a>
         </p>
 
     </div>
