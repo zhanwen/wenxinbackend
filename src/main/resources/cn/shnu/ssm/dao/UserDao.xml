@@ -60,4 +60,25 @@
     SELECT * FROM teacher
   </select>
 
+
+  <update id="updateTeacher" parameterType="cn.shnu.ssm.pojo.Teacher">
+    UPDATE teacher
+    <trim prefix="set" suffixOverrides=",">
+      <if test="username!=null">username=#{username},</if>
+      <if test="url!=null">url=#{url},</if>
+    </trim>
+    WHERE id = #{id}
+  </update>
+
+  <delete id="deleteTeacher" parameterType="int">
+    DELETE FROM teacher WHERE id=#{id}
+  </delete>
+
+  <insert id="addTeacher" parameterType="cn.shnu.ssm.pojo.Teacher">
+    INSERT INTO teacher (username, url) VALUES (#{username}, #{url})
+  </insert>
+
+  <select id="findTeacher" parameterType="int" resultMap="TeacherResultMap">
+    SELECT * FROM teacher WHERE id = #{id}
+  </select>
 </mapper>

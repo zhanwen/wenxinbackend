@@ -93,5 +93,79 @@ public class MangerController {
         }
         return modelAndView;
     }
+    @RequestMapping("teacherUpdate")
+    public ModelAndView teacherUpdate(HttpServletRequest request){
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String id = request.getParameter("id");
+            if(id == null || "".equals(id)){
 
+            }else {
+                int teacherId = Integer.valueOf(id);
+                Teacher teacher = userService.findTeacher(teacherId);
+                modelAndView.addObject("teacher", teacher);
+            }
+            modelAndView.setViewName("/admin/updateTeacher");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("updateTeacher")
+    public ModelAndView updateTeacher(HttpServletRequest request){
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String id = request.getParameter("id");
+            String username = request.getParameter("username");
+            String url = request.getParameter("url");
+            Teacher teacher = new Teacher();
+            teacher.setUsername(username);
+            teacher.setId(Integer.valueOf(id));
+            teacher.setUrl(url);
+            userService.updateTeacher(teacher);
+            List<Teacher> teacherList = userService.findAllTeacher();
+            modelAndView.addObject("teacherList", teacherList);
+
+            modelAndView.setViewName("/admin/updateTeacher");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("deleteTeacher")
+    public ModelAndView deleteTeacher(HttpServletRequest request){
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String id = request.getParameter("id");
+            userService.deleteTeacher(Integer.valueOf(id));
+            List<Teacher> teacherList = userService.findAllTeacher();
+            modelAndView.addObject("teacherList", teacherList);
+            modelAndView.setViewName("/admin/teacher");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("addTeacher")
+    public ModelAndView addTeacher(HttpServletRequest request) throws Exception{
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String username = new String(request.getParameter("username").getBytes("iso-8859-1"), "utf-8");
+            String url = request.getParameter("url");
+            Teacher teacher = new Teacher();
+            teacher.setUsername(username);
+            teacher.setUrl(url);
+            userService.addTeacher(teacher);
+
+            List<Teacher> teacherList = userService.findAllTeacher();
+            modelAndView.addObject("teacherList", teacherList);
+            modelAndView.setViewName("/admin/teacher");
+        }
+        return modelAndView;
+    }
 }

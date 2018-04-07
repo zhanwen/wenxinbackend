@@ -77,6 +77,9 @@
 
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div>
+                <button class="btn  btn-danger" style="size: 10px">添加学生</button>
+            </div>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -86,6 +89,8 @@
                         <th>姓名</th>
                         <th>邮箱</th>
                         <th>职位</th>
+                        <th></th>
+                        <th></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -96,6 +101,8 @@
                             <td>${student.username}</td>
                             <td>${student.email}</td>
                             <td>${student.position}</td>
+                            <td><a href="#">修改</a></td>
+                            <td><a href="#">删除</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>

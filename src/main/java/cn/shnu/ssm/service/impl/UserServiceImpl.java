@@ -46,4 +46,21 @@ public class UserServiceImpl implements UserService {
     public List<Teacher> findAllTeacher() {
         return userDao.findAllTeacher();
     }
+
+    public void updateTeacher(Teacher teacher) {
+        userDao.updateTeacher(teacher);
+    }
+
+    public void deleteTeacher(Integer id) {
+        userDao.deleteTeacher(id);
+    }
+
+    public void addTeacher(Teacher teacher) {
+        userDao.addTeacher(teacher);
+    }
+
+    public Teacher findTeacher(int teacherId) {
+        return userDao.findTeacher(teacherId);
+
+    }
 }

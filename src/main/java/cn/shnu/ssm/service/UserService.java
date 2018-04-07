@@ -20,4 +20,12 @@ public interface UserService {
     boolean findManager(String username, String pwd);
 
     List<Teacher> findAllTeacher();
+
+    void updateTeacher(Teacher teacher);
+
+    void deleteTeacher(Integer integer);
+
+    void addTeacher(Teacher teacher);
+
+    Teacher findTeacher(int teacherId);
 }

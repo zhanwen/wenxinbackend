@@ -22,4 +22,12 @@ public interface UserDao {
     User findManager(User user);
 
     List<Teacher> findAllTeacher();
+
+    void updateTeacher(Teacher teacher);
+
+    void deleteTeacher(int id);
+
+    void addTeacher(Teacher teacher);
+
+    Teacher findTeacher(int teacherId);
 }

@@ -7,6 +7,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page pageEncoding="utf-8"%>
+<%request.setCharacterEncoding("utf-8");%>
 <html>
 <head>
     <meta charset="utf-8">
@@ -37,28 +39,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script language="JavaScript">
-        function confirmTrue() {
-            var str = getRootPath_web();
-            window.location.href=str+"/admin/teacherUpdate";
-            return false;
-        }
-
-        function getRootPath_web() {
-            //获取当前网址，如： http://localhost:8083/uimcardprj/share/meun.jsp
-            var curWwwPath = window.document.location.href;
-            //获取主机地址之后的目录，如： uimcardprj/share/meun.jsp
-            var pathName = window.document.location.pathname;
-            var pos = curWwwPath.indexOf(pathName);
-            //获取主机地址，如： http://localhost:8083
-            var localhostPaht = curWwwPath.substring(0, pos);
-            //获取带"/"的项目名，如：/uimcardprj
-            var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
-            return (localhostPaht + projectName);
-        }
-    </script>
-
 </head>
 
 <body>
@@ -99,29 +79,28 @@
 
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <div>
-                <button class="btn btn-danger" style="size: 10px" onclick="return confirmTrue()">添加老师</button>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>姓名</th>
-                        <th>URL</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                        <c:forEach items="${teacherList}" var="teacher">
-                            <tr>
-                                <td>${teacher.username}</td>
-                                <td>${teacher.url}</td>
-                                <td><a href="${pageContext.request.getContextPath()}/admin/teacherUpdate?id=${teacher.id}">修改</a></td>
-                                <td><a href="${pageContext.request.getContextPath()}/admin/deleteTeacher?id=${teacher.id}">删除</a></td>
-                            </tr>
-                        </c:forEach>
-                    </tbody>
-                </table>
-            </div>
+
+            <form class="form-horizontal" action="${pageContext.request.getContextPath()}/admin/addTeacher">
+                <div class="form-group">
+                    <label for="username" class="col-sm-2 control-label">姓名</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="username" name="username" value="${teacher.username}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="url" class="col-sm-2 control-label">Url</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="url" name="url" value="${teacher.url}">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default" onclick="">保存</button>
+                    </div>
+                </div>
+            </form>
+
         </div>
     </div>
 </div>
