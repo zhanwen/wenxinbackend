@@ -43,8 +43,7 @@
 </head>
 <body>
 <%
-    User user = (User)session.getAttribute("user");
-    String active = (String)session.getAttribute("active");
+    String active = (String)request.getSession().getAttribute("active");
 %>
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -61,16 +60,16 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li <c:if test="${active == 'home'}">class="active"</c:if> > <a href="${pageContext.request.contextPath}/user/home">首页</a></li>
-                <li <c:if test="${active == 'team'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/team/team">科研团队</a></li>
+                <li <c:if test="${active == 'team'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/team/researhchTeam">科研团队</a></li>
                 <li <c:if test="${active == 'research'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/research/researchDirection">研究方向</a></li>
-                <li <c:if test="${active == 'project'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/project/ScienceProject">科研项目</a></li>
+                <li <c:if test="${active == 'project'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/project/scienceProject">科研项目</a></li>
                 <li <c:if test="${active == 'school'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/school/schoolResult">学术成果</a></li>
                 <li <c:if test="${active == 'profile'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/user/profile?studentNo=${user.studentNo}">个人中心</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <c:choose>
-                    <c:when test="${user!= null}">
-                        <li><a href ="javascript:return false;" style="cursor: default;">${user.getUsername()}</a></li>
+                    <c:when test="${sessionScope.user != null}">
+                        <li><a href ="${pageContext.request.contextPath}/user/profile?studentNo=${sessionScope.user.studentNo}">${sessionScope.user.getUsername()}</a></li>
                         <li><a href="${pageContext.request.contextPath}/user/logout">登出</a></li>
                     </c:when>
                     <c:otherwise>

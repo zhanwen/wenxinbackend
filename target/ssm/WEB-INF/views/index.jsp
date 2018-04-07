@@ -10,7 +10,7 @@
 
 <body>
 
-<jsp:include page="base.jsp" flush="true"/><!--动态包含-->
+<jsp:include page="../../base.jsp" flush="true"/><!--动态包含-->
 <div class="container">
 
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
