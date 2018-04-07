@@ -45,7 +45,7 @@
                     <div class="col-xs-4">
                         邮箱: &nbsp; <input type="text" id="email" name="email" value="<c:if test="${user.email != null}">${user.email}</c:if>"/>
                         <br>
-                        年级: &nbsp; <input type="text" id="grade" name="grade" value="<c:if test="${user.grade != null}">${user.grade}</c:if>"/>
+                        年级: &nbsp; ${user.grade}
                     </div>
                 </div>
             </div>

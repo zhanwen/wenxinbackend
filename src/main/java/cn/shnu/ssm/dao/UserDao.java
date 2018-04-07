@@ -15,4 +15,6 @@ public interface UserDao {
     void updataUser(User user);
 
     void updateUserInformation(User uuser);
+
+    List<User> findAllUser();
 }

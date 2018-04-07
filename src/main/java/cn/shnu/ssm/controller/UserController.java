@@ -46,8 +46,9 @@ public class UserController {
 //    }
 
     @RequestMapping("loginPage")
-    public ModelAndView loginPage() throws Exception{
+    public ModelAndView loginPage(HttpServletRequest request) throws Exception{
         ModelAndView modelAndView = new ModelAndView();
+        request.getSession().setAttribute("active", "home");
         modelAndView.setViewName("login");
         return modelAndView;
     }
@@ -108,7 +109,7 @@ public class UserController {
         ModelAndView modelAndView = new ModelAndView();
         String studentNo = request.getParameter("studentNo");
         User Iuser = (User)request.getSession().getAttribute("user");
-        if(!Iuser.getStudentNo().equals(studentNo)) {
+        if(Iuser != null && !Iuser.getStudentNo().equals(studentNo)) {
             request.getSession().setAttribute("Flag", "2");
         }else {
             request.getSession().setAttribute("Flag", "1");

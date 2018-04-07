@@ -17,7 +17,7 @@
     <result column="introduce" jdbcType="VARCHAR" property="introduce" />
     <result column="researchResult" jdbcType="VARCHAR" property="researchResult" />
     <result column="skills" jdbcType="VARCHAR" property="skills" />
-
+    <result column="isFinish" jdbcType="INTEGER" property="isFinish" />
   </resultMap>
 
   <select id="selectByStudentNo" parameterType="string" resultMap="BaseResultMap">
@@ -41,4 +41,10 @@
     </trim>
     WHERE StudentNo = #{studentNo}
 </update>
+
+  <select id="findAllUser" resultMap="BaseResultMap">
+    SELECT * FROM user ORDER BY grade
+  </select>
+
+
 </mapper>

@@ -38,6 +38,8 @@ public class User {
 
     private String skills;
 
+    private int isFinish;
+
     public Integer getId() {
         return id;
     }
@@ -164,5 +166,13 @@ public class User {
 
     public void setSkills(String skills) {
         this.skills = skills;
+    }
+
+    public int getIsFinish() {
+        return isFinish;
+    }
+
+    public void setIsFinish(int isFinish) {
+        this.isFinish = isFinish;
     }
 }

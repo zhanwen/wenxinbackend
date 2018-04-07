@@ -46,6 +46,7 @@
                 <div class="col-xs-3">
                     <p>职位: &nbsp; <c:if test="${user.position != null}">${user.position}</c:if><c:if test="${user.position == null}">无</c:if></p>
                     <p>学历: &nbsp; <c:if test="${user.education != null}">${user.education}</c:if><c:if test="${user.education == null}">无</c:if></p>
+                    <p>是否毕业: &nbsp; <c:if test="${user.isFinish != 0}">是</c:if> <c:if test="${user.isFinish == 0}">否</c:if></p>
                 </div>
                 <div class="col-xs-4">
                     <p>邮箱: &nbsp; <c:if test="${user.email != null}">${user.email}</c:if><c:if test="${user.email == null}">无</c:if></p>
@@ -62,7 +63,10 @@
         <div class="panel-body">
             <div class="col-xs-10" style="padding-top: 15px">
                 <div class="col-xs-10">
-                   <p>勇敢的尝试，去闯荡，去拼搏。希望能够遇到自己的知己。</p>
+                    <span>
+                        <c:if test="${user.introduce == null}">无</c:if>
+                        <c:if test="${user.introduce != null}">${user.introduce}</c:if>
+                    </span>
                 </div>
             </div>
         </div>
@@ -75,7 +79,10 @@
         <div class="panel-body">
             <div class="col-xs-10" style="padding-top: 15px">
                 <div class="col-xs-10">
-                    <p>勇敢的尝试，去闯荡，去拼搏。希望能够遇到自己的知己。</p>
+                    <span>
+                        <c:if test="${user.researchResult == null}">无</c:if>
+                        <c:if test="${user.researchResult != null}">${user.researchResult}</c:if>
+                    </span>
                 </div>
             </div>
         </div>
@@ -88,7 +95,10 @@
         <div class="panel-body">
             <div class="col-xs-10" style="padding-top: 15px">
                 <div class="col-md-10">
-                    <span>${user.skills}</span>
+                   <span>
+                        <c:if test="${user.skills == null}">无</c:if>
+                        <c:if test="${user.skills != null}">${user.skills}</c:if>
+                    </span>
                 </div>
             </div>
         </div>

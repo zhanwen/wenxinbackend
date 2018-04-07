@@ -61,7 +61,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li <c:if test="${active == 'home'}">class="active"</c:if> > <a href="${pageContext.request.contextPath}/user/home">首页</a></li>
-                <li <c:if test="${active == 'team'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/team/team">科研团队</a></li>
+                <li <c:if test="${active == 'team'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/team/researhchTeam">科研团队</a></li>
                 <li <c:if test="${active == 'research'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/research/researchDirection">研究方向</a></li>
                 <li <c:if test="${active == 'project'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/project/ScienceProject">科研项目</a></li>
                 <li <c:if test="${active == 'school'}">class="active"</c:if>><a href="${pageContext.request.contextPath}/school/schoolResult">学术成果</a></li>

@@ -29,4 +29,8 @@ public class UserServiceImpl implements UserService {
     public void updateUserInformation(User uuser) {
         userDao.updateUserInformation(uuser);
     }
+
+    public List<User> findAllUser() {
+        return userDao.findAllUser();
+    }
 }
