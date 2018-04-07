@@ -17,7 +17,7 @@
 
     <div class="centerinfo jumbotron" style="margin-top:20px;">
         <button type="button" class="btn btn-success" >
-            <span class="glyphicon glyphicon glyphicon-list-alt"></span>科研项目
+            <span class="glyphicon glyphicon glyphicon-globe"></span>科研项目
         </button>
     <hr style="margin-top: 5px"/>
     <div class="research">
@@ -89,7 +89,7 @@
     </div>
     </div>
 
-
+    <jsp:include page="../../../footer.jsp" flush="true"/>
 
 </div>
 

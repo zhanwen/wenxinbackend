@@ -16,7 +16,7 @@
 
 <jsp:include page="../../../base.jsp" flush="true"/><!--动态包含-->
 
-<div class="container">
+<div class="container-fluid">
     <!-- Main component for a primary marketing message or call to action -->
     <div class="centerinfo jumbotron" style="margin-top:20px;">
         <button type="button" class="btn btn-primary" >
@@ -97,6 +97,6 @@
 
 </div>
 </div>
-
+<jsp:include page="../../../footer.jsp" flush="true"/>
 </body>
 </html>

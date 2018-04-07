@@ -212,14 +212,8 @@
         </div>
     </div>
     <br>
-    <footer class="footer">
-        <p align="center">
-            Copyright © 2018 All Rights Reserved 版权所有：上海师范大学大数据和物联网实验室
-        </p>
-        <br>
-    </footer>
 </div> <!-- /container -->
 
-
+<jsp:include page="footer.jsp" flush="true"/>
 </body>
 </html>

@@ -19,7 +19,7 @@
 
     <div class="centerinfo jumbotron" style="margin-top:20px;">
         <button type="button" class="btn btn-primary" >
-            <span class="glyphicon glyphicon glyphicon-home"></span> 研究方向
+            <span class="glyphicon glyphicon-credit-card"></span> 研究方向
         </button>
         <br>
         <br/>
@@ -53,6 +53,7 @@
 
 
 </div>
+<jsp:include page="../../../footer.jsp" flush="true"/>
 </div>
 
 </body>
