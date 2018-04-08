@@ -20,7 +20,7 @@
     <title>大数据和物联网实验室</title>
     <!-- Bootstrap core CSS -->
     <link href="${pageContext.request.getContextPath()}/static/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="${pageContext.request.getContextPath()}/static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 

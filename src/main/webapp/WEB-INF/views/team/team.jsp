@@ -11,6 +11,7 @@
 <head>
     <title>研究团队</title>
     <link href="${pageContext.request.getContextPath()}/static/css/team.css" rel="stylesheet">
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 </head>
 <body>
 

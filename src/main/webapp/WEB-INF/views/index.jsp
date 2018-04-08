@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <title>大数据和物联网实验室</title>
-    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favicon.ico">
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/newfavicon.ico">
 </head>
 
 <body>

@@ -11,7 +11,7 @@
 <head>
     <title>个人中心</title>
     <!--  title对应的图标 -->
-    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favicon.ico">
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 
     <script>
         function updateImage() {

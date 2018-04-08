@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <title>大数据和物联网实验室</title>
-    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favicon.ico">
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 </head>
 
 <body>
@@ -24,17 +24,23 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active" >
-                <img src="${pageContext.request.getContextPath()}/static/images/timg.jpeg" alt="..." style="width: 1150px; height: 400px;">
+                <img src="${pageContext.request.getContextPath()}/static/images/bigdata.png" alt="..." style="width: 1150px; height: 400px;">
                 <div class="carousel-caption">
-                    <h3>..aaa.</h3>
-                    <p>...</p>
+                    <p>大数据</p>
                 </div>
             </div>
             <div class="item">
-                <img src="${pageContext.request.getContextPath()}/static/images/moon.jpg" alt="..." style="width: 1150px; height: 400px;">
+                <img src="${pageContext.request.getContextPath()}/static/images/iot.png" alt="..." style="width: 1150px; height: 400px;">
                 <div class="carousel-caption">
-                    <h3>.bbb..</h3>
-                    <p>...</p>
+                    <%--<h3>.bbb..</h3>--%>
+                    <p>物联网</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="${pageContext.request.getContextPath()}/static/images/cloud.jpg" alt="..." style="width: 1150px; height: 400px;">
+                <div class="carousel-caption">
+                    <%--<h3>.bbb..</h3>--%>
+                    <p>云计算</p>
                 </div>
             </div>
         </div>
