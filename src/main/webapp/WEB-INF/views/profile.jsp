@@ -35,7 +35,9 @@
             <div class="col-xs-2">
                 <img src="${pageContext.request.getContextPath()}/${user.imagepath}"
                      alt="..." class="img-circle" style="width: 150px; height: 150px;">
-                <button style="margin-left: 35px" onclick="return updateImage()">上传头像</button>
+                    <c:if test="${sessionScope.Flag == '1'}">
+                        <button style="margin-left: 35px" onclick="return updateImage()">上传头像</button>
+                    </c:if>
             </div>
             <div class="col-xs-10" style="padding-top: 30px">
                 <div class="col-xs-3">
