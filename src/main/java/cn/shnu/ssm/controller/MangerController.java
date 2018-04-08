@@ -113,13 +113,13 @@ public class MangerController {
     }
 
     @RequestMapping("updateTeacher")
-    public ModelAndView updateTeacher(HttpServletRequest request){
+    public ModelAndView updateTeacher(HttpServletRequest request) throws Exception{
         ModelAndView modelAndView = new ModelAndView();
         if(request.getSession().getAttribute("admin") == null) {
             modelAndView.setViewName("/admin/login");
         }else {
             String id = request.getParameter("id");
-            String username = request.getParameter("username");
+            String username = new String(request.getParameter("username").getBytes("iso-8859-1"), "utf-8");
             String url = request.getParameter("url");
             Teacher teacher = new Teacher();
             teacher.setUsername(username);
@@ -129,7 +129,7 @@ public class MangerController {
             List<Teacher> teacherList = userService.findAllTeacher();
             modelAndView.addObject("teacherList", teacherList);
 
-            modelAndView.setViewName("/admin/updateTeacher");
+            modelAndView.setViewName("/admin/teacher");
         }
         return modelAndView;
     }
@@ -145,6 +145,17 @@ public class MangerController {
             List<Teacher> teacherList = userService.findAllTeacher();
             modelAndView.addObject("teacherList", teacherList);
             modelAndView.setViewName("/admin/teacher");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("teacherAdd")
+    public ModelAndView teacherAdd(HttpServletRequest request) throws Exception{
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            modelAndView.setViewName("/admin/teacherUpdate");
         }
         return modelAndView;
     }

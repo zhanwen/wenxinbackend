@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: zhanghanwen
@@ -6,7 +7,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page pageEncoding="utf-8"%>
+<%request.setCharacterEncoding("utf-8");%>
 <html>
 <head>
     <meta charset="utf-8">
@@ -42,6 +44,7 @@
 <body>
 <%
     String active = (String)request.getSession().getAttribute("active");
+
 %>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -77,37 +80,31 @@
 
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <div>
-                <button class="btn  btn-danger" style="size: 10px">添加学生</button>
-            </div>
-            <div class="table-responsive">
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>年级</th>
-                        <th>姓名</th>
-                        <th>学号</th>
-                        <th>邮箱</th>
-                        <th>职位</th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <c:forEach items="${userList}" var="student">
-                        <tr>
-                            <td>${student.grade}</td>
-                            <td>${student.studentNo}</td>
-                            <td>${student.username}</td>
-                            <td>${student.email}</td>
-                            <td>${student.position}</td>
-                            <td><a href="#">修改</a></td>
-                            <td><a href="#">删除</a></td>
-                        </tr>
-                    </c:forEach>
-                    </tbody>
-                </table>
-            </div>
+
+            <form class="form-horizontal" id="form1" action="${pageContext.request.getContextPath()}/admin/addTeacher">
+
+                <input type="hidden" id="id" name="id" value="${teacher.id}">
+
+                <div class="form-group">
+                    <label for="username" class="col-sm-2 control-label">姓名</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="username" name="username" value="${teacher.username}">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="url" class="col-sm-2 control-label">Url</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="url" name="url" value="${teacher.url}">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default" >保存</button>
+                    </div>
+                </div>
+            </form>
+
         </div>
     </div>
 </div>

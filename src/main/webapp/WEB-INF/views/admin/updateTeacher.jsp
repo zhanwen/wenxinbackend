@@ -44,6 +44,7 @@
 <body>
 <%
     String active = (String)request.getSession().getAttribute("active");
+
 %>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -80,7 +81,10 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-            <form class="form-horizontal" action="${pageContext.request.getContextPath()}/admin/addTeacher">
+            <form class="form-horizontal" id="form1" action="${pageContext.request.getContextPath()}/admin/updateTeacher">
+
+                <input type="hidden" id="id" name="id" value="${teacher.id}">
+
                 <div class="form-group">
                     <label for="username" class="col-sm-2 control-label">姓名</label>
                     <div class="col-sm-5">
@@ -96,7 +100,7 @@
 
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default" onclick="">保存</button>
+                        <button type="submit" class="btn btn-default" >保存</button>
                     </div>
                 </div>
             </form>
