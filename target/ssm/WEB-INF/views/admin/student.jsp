@@ -15,7 +15,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favicon.ico">
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 
     <title>后台管理</title>
 
@@ -37,6 +37,40 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script language="JavaScript">
+
+        function addStudent() {
+            var str = getRootPath_web();
+            window.location.href=str+"/admin/studentAdd";
+            return false;
+        }
+
+        function getRootPath_web() {
+            //获取当前网址，如： http://localhost:8083/uimcardprj/share/meun.jsp
+            var curWwwPath = window.document.location.href;
+            //获取主机地址之后的目录，如： uimcardprj/share/meun.jsp
+            var pathName = window.document.location.pathname;
+            var pos = curWwwPath.indexOf(pathName);
+            //获取主机地址，如： http://localhost:8083
+            var localhostPaht = curWwwPath.substring(0, pos);
+            //获取带"/"的项目名，如：/uimcardprj
+            var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
+            return (localhostPaht + projectName);
+        }
+
+
+
+        function deleteConfirm() {
+            var tr = confirm("确认删除");
+            if(tr) {
+                return true;
+            }else {
+                return false;
+            }
+        }
+    </script>
+
 </head>
 
 <body>
@@ -78,17 +112,17 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <div>
-                <button class="btn  btn-danger" style="size: 10px">添加学生</button>
+                <button class="btn  btn-danger" style="size: 10px" onclick="return addStudent()">添加学生</button>
             </div>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                     <tr>
                         <th>年级</th>
-                        <th>学号</th>
                         <th>姓名</th>
+                        <th>学号</th>
                         <th>邮箱</th>
-                        <th>职位</th>
+                        <th>是否毕业</th>
                         <th></th>
                         <th></th>
                     </tr>
@@ -97,12 +131,12 @@
                     <c:forEach items="${userList}" var="student">
                         <tr>
                             <td>${student.grade}</td>
-                            <td>${student.studentNo}</td>
                             <td>${student.username}</td>
+                            <td>${student.studentNo}</td>
                             <td>${student.email}</td>
-                            <td>${student.position}</td>
-                            <td><a href="#">修改</a></td>
-                            <td><a href="#">删除</a></td>
+                            <td><c:if test="${student.isFinish == 1}">是</c:if><c:if test="${student.isFinish == 0}">否</c:if></td>
+                            <td><a href="${pageContext.request.getContextPath()}/admin/studentUpdate?studentNo=${student.studentNo}">修改</a></td>
+                            <td><a onclick="return deleteConfirm()" href="${pageContext.request.getContextPath()}/admin/deleteStudent?id=${student.id}">删除</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>

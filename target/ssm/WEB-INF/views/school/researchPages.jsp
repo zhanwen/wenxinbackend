@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>学术论文</title>
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 </head>
 <body>
 <%

@@ -15,7 +15,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favicon.ico">
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 
     <title>后台管理</title>
 
@@ -28,6 +28,7 @@
     <!-- Custom styles for this template -->
     <link href="${pageContext.request.getContextPath()}/static/css/dashboard.css" rel="stylesheet">
     <script src="${pageContext.request.getContextPath()}/static/js/ie8-responsive-file-warning.js"></script>
+    <script src="${pageContext.request.getContextPath()}/static/js/confirm.js"></script>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><![endif]-->
     <script src="${pageContext.request.getContextPath()}/static/js/ie-emulation-modes-warning.js"></script>
@@ -41,7 +42,7 @@
     <script language="JavaScript">
         function confirmTrue() {
             var str = getRootPath_web();
-            window.location.href=str+"/admin/teacherUpdate";
+            window.location.href=str+"/admin/teacherAdd";
             return false;
         }
 
@@ -57,6 +58,16 @@
             var projectName = pathName.substring(0, pathName.substr(1).indexOf('/') + 1);
             return (localhostPaht + projectName);
         }
+
+        function deleteConfirm() {
+            var tr = confirm("确认删除");
+            if(tr) {
+                return true;
+            }else {
+                return false;
+            }
+        }
+
     </script>
 
 </head>
@@ -116,7 +127,7 @@
                                 <td>${teacher.username}</td>
                                 <td>${teacher.url}</td>
                                 <td><a href="${pageContext.request.getContextPath()}/admin/teacherUpdate?id=${teacher.id}">修改</a></td>
-                                <td><a href="${pageContext.request.getContextPath()}/admin/deleteTeacher?id=${teacher.id}">删除</a></td>
+                                <td><a onclick="return deleteConfirm()" href="${pageContext.request.getContextPath()}/admin/deleteTeacher?id=${teacher.id}">删除</a></td>
                             </tr>
                         </c:forEach>
                     </tbody>

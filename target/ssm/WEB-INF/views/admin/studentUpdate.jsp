@@ -81,30 +81,34 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-            <form class="form-horizontal" id="form1" action="${pageContext.request.getContextPath()}/admin/updateTeacher">
+            <form class="form-horizontal" id="form1" action="${pageContext.request.getContextPath()}/admin/updateStudent">
 
-                <input type="hidden" id="id" name="id" value="${teacher.id}">
+                <input type="hidden" id="id" name="id" value="${student.id}">
 
+                <div class="form-group">
+                    <label for="grade" class="col-sm-2 control-label">年级</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="grade" name="grade" value="${student.grade}">
+                    </div>
+                </div>
                 <div class="form-group">
                     <label for="username" class="col-sm-2 control-label">姓名</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" id="username" name="username" value="${teacher.username}">
+                        <input type="text" class="form-control" id="username" name="username" value="${student.username}">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="url" class="col-sm-2 control-label">Url</label>
+                    <label for="studentNo" class="col-sm-2 control-label">学号</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" id="url" name="url" value="${teacher.url}">
+                        <input type="text" class="form-control" id="studentNo" name="studentNo" value="${student.studentNo}">
                     </div>
                 </div>
-
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                         <button type="submit" class="btn btn-default" >保存</button>
                     </div>
                 </div>
             </form>
-
         </div>
     </div>
 </div>

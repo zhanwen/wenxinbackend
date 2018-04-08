@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>专利</title>
+    <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 </head>
 <body>
 <jsp:include page="../../../base.jsp" flush="true"/><!--动态包含-->

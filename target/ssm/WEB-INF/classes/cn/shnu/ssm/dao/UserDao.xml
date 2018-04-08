@@ -81,4 +81,23 @@
   <select id="findTeacher" parameterType="int" resultMap="TeacherResultMap">
     SELECT * FROM teacher WHERE id = #{id}
   </select>
+
+  <insert id="addStudent" parameterType="cn.shnu.ssm.pojo.User">
+    INSERT INTO user (`StudentNo`,`username`,`grade`,`password`,`isfinish`) VALUES (#{studentNo}, #{username}, #{grade}, #{password},#{isFinish});
+  </insert>
+
+  <update id="updateStudent" parameterType="cn.shnu.ssm.pojo.User">
+    UPDATE user
+    <trim prefix="set" suffixOverrides=",">
+      <if test="username!=null">username=#{username},</if>
+      <if test="grade!=null">grade=#{grade},</if>
+      <if test="studentNo!=null">StudentNo=#{studentNo},</if>
+    </trim>
+    WHERE id = #{id}
+  </update>
+
+  <delete id="deleteStudent" parameterType="int">
+    DELETE FROM user WHERE id=#{id}
+  </delete>
+
 </mapper>

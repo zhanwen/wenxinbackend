@@ -81,7 +81,7 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-            <form class="form-horizontal" id="form1" action="${pageContext.request.getContextPath()}/admin/updateTeacher">
+            <form class="form-horizontal" id="form1" action="${pageContext.request.getContextPath()}/admin/addTeacher">
 
                 <input type="hidden" id="id" name="id" value="${teacher.id}">
 
