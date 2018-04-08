@@ -31,9 +31,12 @@ public class MangerController {
     }
 
     @RequestMapping("bWFuYWdlcjEyMw==")
-    public ModelAndView hello() {
+    public ModelAndView hello(HttpServletRequest request) {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.setViewName("/admin/manager");
+        List<User> userList = userService.findAllUser();
+        request.getSession().setAttribute("active", "student");
+        modelAndView.addObject("userList", userList);
+        modelAndView.setViewName("/admin/student");
         return modelAndView;
     }
 
@@ -176,6 +179,97 @@ public class MangerController {
             List<Teacher> teacherList = userService.findAllTeacher();
             modelAndView.addObject("teacherList", teacherList);
             modelAndView.setViewName("/admin/teacher");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("studentAdd")
+    public ModelAndView studentAdd(HttpServletRequest request) throws Exception{
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            modelAndView.setViewName("/admin/addStudent");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("addStudent")
+    public ModelAndView addStudent(HttpServletRequest request) throws Exception{
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String username = new String(request.getParameter("username").getBytes("iso-8859-1"), "utf-8");
+            String grade = request.getParameter("grade");
+            String studentNo = request.getParameter("studentNo");
+            String isfinish = request.getParameter("isfinish");
+            User student = new User();
+            student.setStudentNo(studentNo);
+            student.setPassword("123456");
+            student.setUsername(username);
+            student.setGrade(grade);
+            student.setIsFinish(Integer.valueOf(isfinish));
+            userService.addStudent(student);
+            List<User> studentList = userService.findAllUser();
+            modelAndView.addObject("userList", studentList);
+            modelAndView.setViewName("/admin/student");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("studentUpdate")
+    public ModelAndView studentUpdate(HttpServletRequest request) throws Exception{
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String studentNo = request.getParameter("studentNo");
+            if(studentNo == null || "".equals(studentNo)){
+                modelAndView.setViewName("/admin/login");
+            }else {
+                int studentId = Integer.valueOf(studentNo);
+                User student = userService.findUser(studentNo);
+                modelAndView.addObject("student", student);
+            }
+            modelAndView.setViewName("/admin/studentUpdate");
+        }
+        return modelAndView;
+    }
+
+    @RequestMapping("updateStudent")
+    public ModelAndView updateStudent(HttpServletRequest request) throws Exception{
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String id = request.getParameter("id");
+            String username = new String(request.getParameter("username").getBytes("iso-8859-1"), "utf-8");
+            String grade = request.getParameter("grade");
+            String studentNo = request.getParameter("studentNo");
+            User student = new User();
+            student.setUsername(username);
+            student.setId(Integer.valueOf(id));
+            student.setGrade(grade);
+            student.setStudentNo(studentNo);
+            userService.updateStudent(student);
+            List<User> studentList = userService.findAllUser();
+            modelAndView.addObject("userList", studentList);
+            modelAndView.setViewName("/admin/student");
+        }
+        return modelAndView;
+    }
+    @RequestMapping("deleteStudent")
+    public ModelAndView deleteStudent(HttpServletRequest request){
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            String id = request.getParameter("id");
+            userService.deleteStudent(Integer.valueOf(id));
+            List<User> studentList = userService.findAllUser();
+            modelAndView.addObject("userList", studentList);
+            modelAndView.setViewName("/admin/student");
         }
         return modelAndView;
     }

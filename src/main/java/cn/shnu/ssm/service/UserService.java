@@ -28,4 +28,10 @@ public interface UserService {
     void addTeacher(Teacher teacher);
 
     Teacher findTeacher(int teacherId);
+
+    void addStudent(User student);
+
+    void updateStudent(User student);
+
+    void deleteStudent(Integer integer);
 }

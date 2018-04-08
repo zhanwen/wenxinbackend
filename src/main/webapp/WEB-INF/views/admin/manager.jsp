@@ -66,7 +66,7 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">学生<span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="${pageContext.request.getContextPath()}/admin/students">学生<span class="sr-only">(current)</span></a></li>
                 <li><a href="${pageContext.request.getContextPath()}/admin/teacher">教师</a></li>
             </ul>
             <ul class="nav nav-sidebar">

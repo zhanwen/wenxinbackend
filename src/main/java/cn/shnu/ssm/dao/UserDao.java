@@ -30,4 +30,10 @@ public interface UserDao {
     void addTeacher(Teacher teacher);
 
     Teacher findTeacher(int teacherId);
+
+    void addStudent(User student);
+
+    void updateStudent(User student);
+
+    void deleteStudent(Integer id);
 }
