@@ -4,6 +4,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <head>
+
     <title>大数据和物联网实验室</title>
     <link rel="icon" href="${pageContext.request.getContextPath()}/static/images/favoricon.ico">
 </head>
@@ -24,8 +25,15 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active" >
+                <img src="${pageContext.request.getContextPath()}/static/images/xy.jpg" alt="..." style="width: 1150px; height: 400px;">
+                <div class="carousel-caption">
+                    <%--<p>大数据</p>--%>
+                </div>
+            </div>
+            <div class="item">
                 <img src="${pageContext.request.getContextPath()}/static/images/bigdata.png" alt="..." style="width: 1150px; height: 400px;">
                 <div class="carousel-caption">
+                    <%--<h3>.bbb..</h3>--%>
                     <p>大数据</p>
                 </div>
             </div>
@@ -34,13 +42,6 @@
                 <div class="carousel-caption">
                     <%--<h3>.bbb..</h3>--%>
                     <p>物联网</p>
-                </div>
-            </div>
-            <div class="item">
-                <img src="${pageContext.request.getContextPath()}/static/images/cloud.jpg" alt="..." style="width: 1150px; height: 400px;">
-                <div class="carousel-caption">
-                    <%--<h3>.bbb..</h3>--%>
-                    <p>云计算</p>
                 </div>
             </div>
         </div>
