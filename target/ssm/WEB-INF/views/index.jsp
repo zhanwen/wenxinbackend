@@ -24,14 +24,14 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active" >
-                <img src="${pageContext.request.getContextPath()}/static/images/timg.jpeg" alt="..." style="width: 1150px; height: 400px;">
+                <img src="${pageContext.request.getContextPath()}/static/images/xy.jpg" alt="..." style="width: 1150px; height: 400px;">
                 <div class="carousel-caption">
                     <h3>..aaa.</h3>
                     <p>...</p>
                 </div>
             </div>
             <div class="item">
-                <img src="${pageContext.request.getContextPath()}/static/images/moon.jpg" alt="..." style="width: 1150px; height: 400px;">
+                <img src="${pageContext.request.getContextPath()}/static/images/xy.jpg" alt="..." style="width: 1150px; height: 400px;">
                 <div class="carousel-caption">
                     <h3>.bbb..</h3>
                     <p>...</p>
