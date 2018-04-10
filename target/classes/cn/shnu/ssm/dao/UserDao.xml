@@ -100,4 +100,12 @@
     DELETE FROM user WHERE id=#{id}
   </delete>
 
+  <update id="updatePwd" parameterType="cn.shnu.ssm.pojo.User">
+    UPDATE user
+    <trim prefix="set" suffixOverrides=",">
+      <if test="password!=null">password=#{password},</if>
+    </trim>
+    WHERE studentNo = #{studentNo}
+  </update>
+
 </mapper>
