@@ -53,6 +53,9 @@
                 <div class="col-xs-4">
                     <p>邮箱: &nbsp; <c:if test="${user.email != null}">${user.email}</c:if><c:if test="${user.email == null}">无</c:if></p>
                     <p>年级: &nbsp; <c:if test="${user.grade != null}">${user.grade}</c:if><c:if test="${user.grade == null}">无</c:if></p>
+                    <c:if test="${sessionScope.Flag == '1'}">
+                        <a href="${pageContext.request.getContextPath()}/user/passwordSet">重新设置密码</a>
+                    </c:if>
                 </div>
             </div>
         </div>

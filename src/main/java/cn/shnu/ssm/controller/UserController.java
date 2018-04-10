@@ -262,4 +262,57 @@ public class UserController {
         return "forward:profile?studentNo="+user.getStudentNo();
     }
 
+    @RequestMapping("passwordSet")
+    public ModelAndView passwordSet(HttpServletRequest request) {
+        ModelAndView modelAndView = new ModelAndView();
+        User userSession = (User)request.getSession().getAttribute("user");
+        if(userSession == null) {
+            modelAndView.setViewName("login");
+            return modelAndView;
+        }else {
+            modelAndView.setViewName("setpassword");
+        }
+        return modelAndView;
+    }
+
+    @ResponseBody
+    @RequestMapping("setPassword")
+    public String setPassword(HttpServletRequest request) throws Exception{
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("result", "");
+        String studentNo = request.getParameter("studentNo");
+        String newpwd = request.getParameter("newpwd");
+        String renewpwd = request.getParameter("renewpwd");
+        String originpwd = request.getParameter("originpwd");
+        if(newpwd == null || "".equals(newpwd)){
+            jsonObject.put("result", "blank");
+            return jsonObject.toString();
+        }
+        if(renewpwd == null || "".equals(renewpwd)){
+            jsonObject.put("result", "blank");
+            return jsonObject.toString();
+        }
+        if(!newpwd.equals(renewpwd)) {
+            jsonObject.put("result", "notSame");
+            return jsonObject.toString();
+        }
+        User old = userService.findUser(studentNo);
+        if("".equals(studentNo) || studentNo == null || old == null) {
+            jsonObject.put("result", "noStudent");
+            return jsonObject.toString();
+        }
+        if(!originpwd.equals(old.getPassword())) {
+            jsonObject.put("result", "notpwd");
+            return jsonObject.toString();
+        }
+        User user = new User();
+        user.setStudentNo(studentNo);
+        user.setPassword(newpwd);
+        userService.updatePwd(user);
+        jsonObject.put("result", "succ");
+        return jsonObject.toString();
+    }
+
+
+
 }

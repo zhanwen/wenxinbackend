@@ -34,4 +34,6 @@ public interface UserService {
     void updateStudent(User student);
 
     void deleteStudent(Integer integer);
+
+    void updatePwd(User user);
 }

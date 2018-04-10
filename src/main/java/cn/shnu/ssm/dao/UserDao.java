@@ -36,4 +36,6 @@ public interface UserDao {
     void updateStudent(User student);
 
     void deleteStudent(Integer id);
+
+    void updatePwd(User user);
 }
