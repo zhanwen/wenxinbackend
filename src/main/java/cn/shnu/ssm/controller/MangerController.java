@@ -55,6 +55,8 @@ public class MangerController {
             request.getSession().setAttribute("admin", user);
             jsonObject.put("result", "admin");
             return jsonObject.toString();
+        }else{
+            jsonObject.put("result", "nameAndPwd");
         }
         return jsonObject.toString();
     }
@@ -204,12 +206,14 @@ public class MangerController {
             String grade = request.getParameter("grade");
             String studentNo = request.getParameter("studentNo");
             String isfinish = request.getParameter("isfinish");
+            String gender = request.getParameter("gender");
             User student = new User();
             student.setStudentNo(studentNo);
             student.setPassword("123456");
             student.setUsername(username);
             student.setGrade(grade);
             student.setIsFinish(Integer.valueOf(isfinish));
+            student.setSex(gender);
             userService.addStudent(student);
             List<User> studentList = userService.findAllUser();
             modelAndView.addObject("userList", studentList);

@@ -73,8 +73,8 @@
                             <span class="grade2">${map.key}</span>
                             <c:forEach items="${map.value}" var="students" varStatus="vs">
                                 <a href="${pageContext.request.getContextPath()}/user/profile?studentNo=${students.studentNo}">${students.username}</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <c:if test="${vs.count % 4 == 0}"><br/></c:if>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <c:if test="${vs.count % 5 == 0}"><br/></c:if>
                             </c:forEach>
                         </c:forEach>
 
@@ -83,10 +83,10 @@
                     <div class="col-md-6">
                         <c:forEach items="${finishStudents}" var="map">
                             <span class="grade2">${map.key}</span>
-                            <c:forEach items="${map.value}" var="finsihstudents">
+                            <c:forEach items="${map.value}" var="finsihstudents" varStatus="vs">
                                 <a href="${pageContext.request.getContextPath()}/user/profile?studentNo=${finsihstudents.studentNo}">${finsihstudents.username}</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <c:if test="${vs.count % 4 == 0}"><br/></c:if>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <c:if test="${vs.count % 5 == 0}"><br/></c:if>
                             </c:forEach>
                         </c:forEach>
                     </div>

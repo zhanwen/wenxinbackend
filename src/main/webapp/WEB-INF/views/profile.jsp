@@ -43,7 +43,7 @@
                 <div class="col-xs-3">
                     <p>姓名: &nbsp; ${user.username}</p>
                     <p>学号: &nbsp; ${user.studentNo}</p>
-                    <p>性别: &nbsp; <c:if test="${user.sex == '1'}">男</c:if> <c:if test="${user.sex == '2'}">女</c:if></p>
+                    <p>性别: &nbsp; <c:if test="${user.sex == '1'}">男</c:if> <c:if test="${user.sex == '0'}">女</c:if></p>
                 </div>
                 <div class="col-xs-3">
                     <p>职位: &nbsp; <c:if test="${user.position != null}">${user.position}</c:if><c:if test="${user.position == null}">无</c:if></p>
