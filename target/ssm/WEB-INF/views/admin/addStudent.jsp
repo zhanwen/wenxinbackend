@@ -100,12 +100,20 @@
                         <input type="text" class="form-control" id="studentNo" name="studentNo">
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <label for="studentNo" class="col-sm-2 control-label">性别</label>
+                    <div class="col-sm-10">
+                        男<input type="radio"  name="gender" value="1" checked>
+                        女<input type="radio"  name="gender" value="0" >
+                    </div>
+                </div>
                 <div class="form-group">
                     <label for="studentNo" class="col-sm-2 control-label">是否毕业</label>
-                        <div class="col-sm-10">
-                           否<input type="radio"  name="isfinish" value="0" checked>
-                            是<input type="radio"  name="isfinish" value="1" >
-                        </div>
+                    <div class="col-sm-10">
+                        否<input type="radio"  name="isfinish" value="0" checked>
+                        是<input type="radio"  name="isfinish" value="1" >
+                    </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">

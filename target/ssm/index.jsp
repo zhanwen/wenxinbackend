@@ -120,7 +120,7 @@
             <li>基于分数阶动力系统的IT 服务项目管理文化的混沌特性研究，教育部博士点基金，2014.1-2016.12</li>
         </ul>
         <p>
-            <a class="btn btn-success" href="../../components/#navbar" role="button">更多 &raquo;</a>
+            <a class="btn btn-success" href="${pageContext.request.getContextPath()}/project/scienceProject" role="button">更多 &raquo;</a>
         </p>
 
     </div>
@@ -149,7 +149,7 @@
             </li>
         </ul>
         <p>
-            <a class="btn btn-warning" href="../../components/#navbar" role="button">更多 &raquo;</a>
+            <a class="btn btn-warning" href="${pageContext.request.getContextPath()}/school/schoolResult" role="button">更多 &raquo;</a>
         </p>
     </div>
 
@@ -203,9 +203,9 @@
             </li>
         </ul>
 
-        <p>
-            <a class="btn btn-link btnwen" href="../../components/#navbar" role="button">更多 &raquo;</a>
-        </p>
+        <%--<p>--%>
+            <%--<a class="btn btn-link btnwen" href="../../components/#navbar" role="button">更多 &raquo;</a>--%>
+        <%--</p>--%>
     </div>
 
     <div class="plink">
