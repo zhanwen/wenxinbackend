@@ -18,7 +18,7 @@
 %>
 <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
     <div class="list-group">
-        <a href="${pageContext.request.getContextPath()}/school/schoolResult" class="list-group-item <c:if test='${link == "patent"}'>active</c:if>">发名专利</a>
+        <a href="${pageContext.request.getContextPath()}/school/schoolResult" class="list-group-item <c:if test='${link == "patent"}'>active</c:if>">发明专利</a>
         <a href="${pageContext.request.getContextPath()}/school/software" class="list-group-item <c:if test='${link == "software"}'>active</c:if>">软件著作权</a>
         <a href="${pageContext.request.getContextPath()}/school/researchPages" class="list-group-item <c:if test='${link == "research"}'>active</c:if>">学术论文</a>
         <a href="${pageContext.request.getContextPath()}/school/academicPages" class="list-group-item <c:if test='${link == "academic"}'>active</c:if>">学位论文</a>
