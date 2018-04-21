@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="BigDataLibrary">
-    <output-path>$USER_HOME$/Desktop</output-path>
-    <root id="archive" name="BigDataLibrary.war">
-      <element id="artifact" artifact-name="BigDataLibrary:war exploded" />
-    </root>
-  </artifact>
-</component>

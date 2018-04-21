@@ -84,13 +84,8 @@
 	<div class="content"><h3 style="color: #202020; font-size:1.6em">学生:</h3></div>
   <div class="box1">
 	<h4 class="btm" style="font-size: 1.4em">本科生</h4>
-	  <p style="color: dodgerblue; text-align:center">2017级</p>
-	  <p><a href="http://hanwen.me">张旱文</a>&nbsp;&nbsp;&nbsp;&nbsp;邹国健&nbsp;&nbsp;&nbsp;&nbsp;贾世林&nbsp;&nbsp;&nbsp;&nbsp;许多&nbsp;&nbsp;&nbsp;&nbsp;黄珊</p>
-	  <p>张乐乐&nbsp;&nbsp;&nbsp;&nbsp;汪浩文</p>
 	  <p style="color: dodgerblue; text-align:center">2016级</p>
-	  <p>金玉鹏&nbsp;&nbsp;&nbsp;&nbsp;张倩&nbsp;&nbsp;&nbsp;&nbsp;雍睿涵</p>
-	  <p style="color: dodgerblue; text-align:center">2015级</p>
-	  <p>穆翠&nbsp;&nbsp;&nbsp;&nbsp;张欢&nbsp;&nbsp;&nbsp;&nbsp;胡志鹏&nbsp;&nbsp;&nbsp;&nbsp;江龙泉</p>
+	  <p>俞豪&nbsp;&nbsp;&nbsp;&nbsp;但于豪&nbsp;&nbsp;&nbsp;&nbsp;高浩然&nbsp;&nbsp;&nbsp;&nbsp;卢淑仪</p>
   </div>
    <div class="box1">
 	<h4 class="btm" style="font-size: 1.4em;">毕业硕士生</h4>
