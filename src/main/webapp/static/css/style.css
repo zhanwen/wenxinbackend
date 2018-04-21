@@ -580,7 +580,7 @@ body {
 	text-transform: uppercase;
 }
 .services-grid{
-	width: 22.33333%;
+	width: 45.22222%;
 	float: left;
 	margin-left: 3%;
 }
@@ -604,7 +604,7 @@ body {
 	color: #555555;
 }
 .services-grid p{
-	color: #575757;
+	color: #101010;
 	line-height: 1.8em;
 	font-size: 0.8925em;
 }

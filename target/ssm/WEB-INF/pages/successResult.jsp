@@ -48,25 +48,30 @@
 					</div>
 					<div class="services-grids">
 						<div class="services-grid">
-							<a href="#">发表论文</a>
-							<p>1、论文1</p>
-							<p>2、论文2</p>
-							<p>3、论文3</p>
-							<p>4、论文4</p>
+							<a href="">发表论文</a>
+							<p>1、Tong Jia, Pengfei Chen, Lin Yang, Ying Li*, et al, An approach for anomaly diagnosis based on hybrid graph model with logs for distributed services, 14th IEEE International Conference on Web Services (IEEE ICWS 2017) , June 26-July1,Hawaii,USA</p>
+							<p>2、Tong Jia, Lin Yang, Pengfei Chen, Ying Li*, et al, LogSed: Anomaly diagnosis through mining time-weighted control flow graph in logs, IEEE International Conference on Cloud Computing (IEEE Cloud 2017), June 26-July1,Hawaii,USA</p>
+							<p>3、Bin Fu, Hongzhi Liu, Zhengshen Jiang, Zhonghai Wu, & D. Frank Hsu. A Feature Selection Framework Based on Supervised Data Clustering, I-SPAN 2017, Exeter, UK, June 21-23, 2017. (EI)</p>
+							<p>4、Tong Jia, Lin Yang, Pengfei Chen, Ying Li*, et al, LogSed: Anomaly diagnosis through mining time-weighted control flow graph in logs, IEEE International Conference on Cloud Computing (IEEE Cloud 2017), June 26-July1,Hawaii,USA</p>
 						</div>
+						<%--<div class="services-grid">--%>
+							<%--<a href="">发明专利</a>--%>
+							<%--<p>1、张旱文，基于xxxxxxxxxxxxxxxxxxx系统，专利申请号：201711222374.6</p>--%>
+							<%--<p>2、专利2</p>--%>
+							<%--<p>3、专利3</p>--%>
+							<%--<p>4、专利4</p>--%>
+						<%--</div>--%>
 						<div class="services-grid">
-							<a href="#">发明专利</a>
-							<p>1、专利1</p>
-							<p>2、专利2</p>
-							<p>3、专利3</p>
-							<p>4、专利4</p>
-						</div>
-						<div class="services-grid">
-							<a href="#">软件著作权</a>
-							<p>1、软件1</p>
-							<p>2、软件2</p>
-							<p>3、软件3</p>
-							<p>4、软件4</p>
+							<a href="">软件著作权</a>
+							<p>1、张旱文，云存储客户端数据安全服务。著作权登记号 2011SR052487</p>
+							<p>2、云存储数据安全访问服务。著作权登记号 2011SR054439</p>
+							<p>3、云存储数据安全内迁服务。著作权登记号 2011SR052173</p>
+							<p>4、云存储数据安全外迁服务。著作权登记号2011SR054810</p>
+							<p>5、一种自主授权的CP -ABE系统和方法，国家发明专利，授权专利号</p>
+							<p>6、基于多云存储的智能移动终端数据存储备份方法与系统，国家发明专利，授权专利号：ZL201410219412.4，授权日期：2017.3.15</p>
+							<p>7、针对Intel移动平台的实时AVS软编码方法，专利号：201410355678.1，授权日期：2017.05.04</p>
+							<p>8、一种适用于移动云的客户端动态认证方法，国家发明专利，授权专利号：ZL201310227082.9，授权日期：2016.2.10</p>
+							<p>8、基于增量式GHSOM 神经网络模型的入侵检测方法.国家发明专利授权号：201210206778.9，授权日期：2014.11.1</p>
 						</div>
 						<!--<div class="services-grid">-->
 							<!--<a href="#">consectetur adiing</a>-->
@@ -119,11 +124,11 @@
 		<div class="clear"> </div>
 	</div>
 	<div class="content">
-		<p style="font-size: 1.2em;"> <a href="#" style="color:dodgerblue;">数学建模比赛</a>
-			&nbsp;&nbsp;&nbsp;&nbsp; <a href="#" style="color:dodgerblue;">ACM比赛</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color:dodgerblue;">电子设计大赛</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color:dodgerblue;">蓝桥杯大赛</a>
-			&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="color:dodgerblue;">微信小程序大赛</a>
+		<p style="font-size: 1.2em;"> <a href="http://www.mcm.edu.cn/" style="color:dodgerblue;">数学建模比赛</a>
+			&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://icpc.shu.edu.cn/" style="color:dodgerblue;">ACM比赛</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.gedc.net.cn/" style="color:dodgerblue;">电子设计大赛</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.lanqiao.org/" style="color:dodgerblue;">蓝桥杯大赛</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://developers.weixin.qq.com/competition/index" style="color:dodgerblue;">微信小程序大赛</a>
 		</p>
 	</div>
 

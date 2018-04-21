@@ -92,7 +92,7 @@
 <div class="wrap">
 <div class="main">
 	<div class="content">
-		<h2>实验室简介 <a href="#" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
+		<h2>实验室简介 <a href="${pageContext.request.getContextPath()}/new/team" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
 		<h3>大数据和物联网实验室</h3>
 		<p>
 			<a href="details.html"><img src="${pageContext.request.getContextPath()}/static/images/new/pic1.jpg"></a><br><br>
@@ -107,18 +107,18 @@
 	<div class="wrap">
 		 <div class="main">
 					<div class="content">
-						<h2>研究方向 <a href="#" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
+						<h2>研究方向 <a href="${pageContext.request.getContextPath()}/new/direction" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
 						<br>
 					</div>
 			 <div class="box1">
-				 <h4 class="btm">服务</h4>
+				 <h4 class="btm">智能</h4>
 				 <div class="box1_address">
 					 <p>研究情境感知计算和智能服务的基础理论和方法
 					 包括：情境元模型、基于大数据的情境模型演化、情境推理、 服务发现、服务组合、服务推荐等，以及面向健康养老、生产性服务、互联网教育、公共安全等领域的情境感知计算、智能服务等关键技术和系统。 </p>
 				 </div>
 			 </div>
 			 <div class="box1">
-				 <h4 class="btm">安全</h4>
+				 <h4 class="btm">物联网</h4>
 				 <div class="box1_address">
 					 <p>研究大数据、云计算、物联网等新型分</p>
 					 <p>式系统安全的基础理论、方法和关键技,</p>
@@ -130,7 +130,7 @@
 				 </div>
 			 </div>
 			 <div class="box1">
-				 <h4 class="btm">智能</h4>
+				 <h4 class="btm">大数据</h4>
 				 <div class="box1_address">
 					 <p>研究大数据分析与机器学习系统相关的基础理论和方法，研究融合计算智能与群智知识的大规模分布式机器学习系统的优化 方法，以及面向系统运维、人力资源、健康医疗、心理咨询、金融科技、精准推荐等领域的深度学习、增强学习、迁移学习等大数据分析技术和系统。</p>
 				 </div>
@@ -143,7 +143,7 @@
 	<div class="wrap">
 	<div class="main">
 		<div class="content">
-			<h2>科研项目 <a href="#" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
+			<h2>科研项目 <a href="${pageContext.request.getContextPath()}/new/researchProject" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
 			<br>
 			<ul>
 				<li><p>1、云存储的隐私保护与安全保障机制，国家自然科学基金重点，2013.1-2017.12</p></li>
@@ -161,7 +161,7 @@
 	<div class="wrap">
 		<div class="main">
 			<div class="content">
-				<h2>专利<a href="#" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
+				<h2>专利<a href="${pageContext.request.getContextPath()}/new/successResult" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
 				<br>
 				<ul>
 					<li><p>1、张旱文，基于问答网站知识的软件配置故障自动修复方法和系统，专利申请号：201610202074.2</p></li>
