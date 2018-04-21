@@ -23,7 +23,7 @@
 <div class="wrap">
 	<div class="header">
 		<div class="logo">
-			<h1><a href="${pageContext.request.getContextPath()}/new/home"><img src="${pageContext.request.getContextPath()}/static/images/new/logo.png" alt=""></a></h1>
+			<h1><a href="${pageContext.request.getContextPath()}/new/home"><img src="${pageContext.request.getContextPath()}/static/images/logo.png" alt=""></a></h1>
 		</div>
 
 		<div class="clear"></div>

@@ -36,7 +36,7 @@ public class MangerController {
         List<User> userList = userService.findAllUser();
         request.getSession().setAttribute("active", "student");
         modelAndView.addObject("userList", userList);
-        modelAndView.setViewName("/admin/student");
+        modelAndView.setViewName("admin/fileList");
         return modelAndView;
     }
 
@@ -94,7 +94,7 @@ public class MangerController {
             List<User> userList = userService.findAllUser();
             request.getSession().setAttribute("active", "student");
             modelAndView.addObject("userList", userList);
-            modelAndView.setViewName("/admin/student");
+            modelAndView.setViewName("admin/fileList");
         }
         return modelAndView;
     }
@@ -191,7 +191,7 @@ public class MangerController {
         if(request.getSession().getAttribute("admin") == null) {
             modelAndView.setViewName("/admin/login");
         }else {
-            modelAndView.setViewName("/admin/addStudent");
+            modelAndView.setViewName("admin/addFile");
         }
         return modelAndView;
     }
@@ -217,7 +217,7 @@ public class MangerController {
             userService.addStudent(student);
             List<User> studentList = userService.findAllUser();
             modelAndView.addObject("userList", studentList);
-            modelAndView.setViewName("/admin/student");
+            modelAndView.setViewName("admin/fileList");
         }
         return modelAndView;
     }
@@ -259,7 +259,7 @@ public class MangerController {
             userService.updateStudent(student);
             List<User> studentList = userService.findAllUser();
             modelAndView.addObject("userList", studentList);
-            modelAndView.setViewName("/admin/student");
+            modelAndView.setViewName("admin/fileList");
         }
         return modelAndView;
     }
@@ -273,7 +273,7 @@ public class MangerController {
             userService.deleteStudent(Integer.valueOf(id));
             List<User> studentList = userService.findAllUser();
             modelAndView.addObject("userList", studentList);
-            modelAndView.setViewName("/admin/student");
+            modelAndView.setViewName("admin/fileList");
         }
         return modelAndView;
     }
