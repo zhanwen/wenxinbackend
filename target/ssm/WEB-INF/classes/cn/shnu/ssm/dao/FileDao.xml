@@ -27,6 +27,10 @@
     SELECT * FROM file WHERE category=#{category} ORDER BY id limit #{pageNos}, #{pageSize}
   </select>
 
+  <select id="findList" resultMap="BaseResultMap" parameterType="cn.shnu.ssm.pojo.FileBean">
+    SELECT * FROM file limit #{pageNos}, #{pageSize}
+  </select>
+
     <select id="findAllByCategory" resultType="int" parameterType="string">
         SELECT count(*) FROM file WHERE category=#{category}
     </select>

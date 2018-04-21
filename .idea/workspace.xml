@@ -2,54 +2,52 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="BigDataLibrary:war exploded" />
+      <artifact name="BigDataLibrary" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c874afac-6bbf-43c3-9721-3e995e4b5856" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/FileController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/dao/FileDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/pojo/FileBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/FileService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/util/FileUploadingUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao/FileDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/404.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/addFile.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/fileList.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/manager.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/studentUpdate.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/teacher.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/teacherUpdate.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/updateTeacher.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/bigDataDig.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/computerVision.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/deepLearning.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/informationRecommend.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/machineLearn.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/nlp.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/img-sp.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/FileController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/UploadController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/UploadController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/direction.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/direction.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchProject.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchProject.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/dao/FileDao.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/dao/FileDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/FileService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/FileService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao/FileDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao/FileDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/fileList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/fileList.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/dashboard.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/dashboard.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/logo.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner1.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner2.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic1.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic2.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic3.jpg" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/pic4.jpg" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/adminLogin.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/adminLogin.js" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/controller/FileController.class" afterPath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/controller/FileController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/controller/MangerController.class" afterPath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/controller/MangerController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/controller/UploadController.class" afterPath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/controller/UploadController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/dao/FileDao.class" afterPath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/dao/FileDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/dao/FileDao.xml" afterPath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/dao/FileDao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/service/FileService.class" afterPath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/service/FileService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/service/impl/FileServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/cn/shnu/ssm/service/impl/FileServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/FileController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/FileController.class" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/MangerController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/MangerController.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/UploadController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/UploadController.class" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/dashboard.css" afterPath="$PROJECT_DIR$/target/ssm/static/css/dashboard.css" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/style.css" afterPath="$PROJECT_DIR$/target/ssm/static/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/FileDao.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/FileDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/FileDao.xml" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/FileDao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/FileService.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/FileService.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/impl/FileServiceImpl.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/impl/FileServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/fileList.jsp" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/fileList.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/banner1.jpg" afterPath="$PROJECT_DIR$/target/ssm/static/images/new/banner1.jpg" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/banner2.jpg" afterPath="$PROJECT_DIR$/target/ssm/static/images/new/banner2.jpg" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic1.jpg" afterPath="$PROJECT_DIR$/target/ssm/static/images/new/pic1.jpg" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic2.jpg" afterPath="$PROJECT_DIR$/target/ssm/static/images/new/pic2.jpg" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic3.jpg" afterPath="$PROJECT_DIR$/target/ssm/static/images/new/pic3.jpg" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic4.jpg" afterPath="$PROJECT_DIR$/target/ssm/static/images/new/pic4.jpg" />
       <change beforePath="$PROJECT_DIR$/target/ssm/static/js/adminLogin.js" afterPath="$PROJECT_DIR$/target/ssm/static/js/adminLogin.js" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/upload/file/1b36a9c9-c2cb-44a1-82f5-b18efc1bdd35.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/upload/images/20180406090014_179.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/upload/images/20180406090020_722.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/upload/images/20180406090022_470.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/upload/images/20180410152308_164.jpg" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,68 +62,7 @@
     <SUITE FILE_PATH="coverage/BigDataLibrary$T7.coverage" NAME="T7 Coverage Results" MODIFIED="1523105693370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="download.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="18" column="100" lean-forward="false" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="researchProject.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchProject.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="successResult.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="148" column="29" lean-forward="false" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="direction.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/direction.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -156,6 +93,8 @@
       <find>li</find>
       <find>.ac</find>
       <find>h_bg</find>
+      <find>findAll</find>
+      <find>findList</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java</dir>
@@ -194,23 +133,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/contact.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/student.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/dashboard.css" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/addStudent.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/adminLogin.js" />
         <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/FileUploadingUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/util/FileUploadingUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/addFile.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/FileService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/dao/FileDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/404.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/pojo/FileBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/fileList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao/FileDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/bigDataDig.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/computerVision.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/deepLearning.jsp" />
@@ -221,8 +151,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchProject.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/adminLogin.js" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/FileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/dao/FileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao/FileDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/fileList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" />
       </list>
     </option>
   </component>
@@ -295,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,65 +241,14 @@
               <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,10 +264,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/images/new" />
       <recent name="$PROJECT_DIR$/src/main/webapp/static/images" />
       <recent name="$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/static/images/new" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -604,16 +491,16 @@
       <workItem from="1523544800701" duration="141000" />
       <workItem from="1524187813159" duration="541000" />
       <workItem from="1524190438400" duration="28877000" />
-      <workItem from="1524303221164" duration="2100000" />
+      <workItem from="1524303221164" duration="7609000" />
+      <workItem from="1524311086009" duration="1499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172914000" />
+    <option name="totallyTimeSpent" value="179922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1382" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -626,7 +513,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33049646" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33049646" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -637,7 +524,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35177305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18813314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18813314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -659,90 +546,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="121" />
+      <option name="time" value="128" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/xy.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/lightbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery.lightbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.9.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="65" column="13" lean-forward="true" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-          <folding>
-            <marker date="1523325568000" expanded="false" signature="10052:10059" ph="»" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/base.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="61" column="120" lean-forward="true" selection-start-line="61" selection-start-column="86" selection-end-line="61" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/contact.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="28" column="129" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="129" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="179" column="20" lean-forward="true" selection-start-line="179" selection-start-column="20" selection-end-line="179" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
@@ -754,6 +562,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1099">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -761,13 +570,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="88" column="40" lean-forward="false" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="81" column="101" lean-forward="false" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="101" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -782,6 +585,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#948#964#0" expanded="false" />
+            <element signature="e#2595#2611#0" expanded="false" />
+            <element signature="e#3868#3869#0" expanded="false" />
+            <element signature="e#3912#3913#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -830,32 +640,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/adminLogin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/addFile.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="152" column="48" lean-forward="true" selection-start-line="152" selection-start-column="48" selection-end-line="152" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -895,65 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/pojo/FileBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/dao/FileDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
-          <folding>
-            <element signature="e#2154#2170#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao/FileDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-          <folding>
-            <marker date="1524299007000" expanded="true" signature="735:753" ph="SELECT * FRO... file" />
-            <marker date="1524299007000" expanded="true" signature="836:867" ph="DELETE FROM teacher... " />
-            <marker date="1524299007000" expanded="true" signature="948:1078" ph="INSERT INTO teacher... " />
-            <marker date="1524299007000" expanded="true" signature="1189:1276" ph="SELECT * FRO... file" />
-            <marker date="1524299007000" expanded="true" signature="1374:1426" ph="SELECT count... file" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/fileList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="137" column="53" lean-forward="true" selection-start-line="137" selection-start-column="53" selection-end-line="137" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/FileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Tools/install-package/java-1.8/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -961,29 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="188" column="58" lean-forward="false" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/bigDataDig.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="17" column="108" lean-forward="false" selection-start-line="17" selection-start-column="108" selection-end-line="17" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="107" lean-forward="false" selection-start-line="17" selection-start-column="107" selection-end-line="17" selection-end-column="107" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="17" column="100" lean-forward="false" selection-start-line="17" selection-start-column="100" selection-end-line="17" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,10 +741,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp">
+    <entry file="jar://$USER_HOME$/Tools/install-package/java-1.8/src.zip!/java/net/PlainSocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="18" column="100" lean-forward="false" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+        <state relative-caret-position="149">
+          <caret line="104" column="16" lean-forward="false" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/new/banner1.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/new/banner1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/xy.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/hanwen.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/flogo2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/new/pic1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/new/quotes_alt.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/new/pic4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/new/banner3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="148" column="29" lean-forward="false" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
           <folding />
         </state>
       </provider>
@@ -1051,26 +812,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/pojo/FileBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+        <state relative-caret-position="285">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#516#517#0" expanded="false" />
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#588#589#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="81" column="101" lean-forward="false" selection-start-line="81" selection-start-column="91" selection-end-line="81" selection-end-column="101" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/adminLogin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="148" column="29" lean-forward="false" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="29" />
+        <state relative-caret-position="283">
+          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="202" column="56" lean-forward="false" selection-start-line="202" selection-start-column="8" selection-end-line="202" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#775#776#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#1633#1634#0" expanded="false" />
+            <element signature="e#1691#1692#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/dao/FileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/shnu/ssm/dao/FileDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1524311673000" expanded="true" signature="735:753" ph="SELECT * FRO... file" />
+            <marker date="1524311673000" expanded="true" signature="836:867" ph="DELETE FROM teacher... " />
+            <marker date="1524311673000" expanded="true" signature="948:1078" ph="INSERT INTO teacher... " />
+            <marker date="1524311673000" expanded="true" signature="1189:1276" ph="SELECT * FRO... file" />
+            <marker date="1524311673000" expanded="true" signature="1387:1435" ph="SELECT * FRO... file" />
+            <marker date="1524311673000" expanded="true" signature="1533:1585" ph="SELECT count... file" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="63" column="86" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/fileList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="155" column="107" lean-forward="true" selection-start-line="155" selection-start-column="107" selection-end-line="155" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="302" column="30" lean-forward="false" selection-start-line="302" selection-start-column="18" selection-end-line="302" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="203" column="24" lean-forward="true" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="246">
+          <caret line="84" column="20" lean-forward="true" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
           <folding />
         </state>
       </provider>

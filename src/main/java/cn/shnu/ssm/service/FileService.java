@@ -20,4 +20,6 @@ public interface FileService {
     FileBean findFile(FileBean fileBean);
 
     int findAllByCategory(String category);
+
+    FileBean findList(FileBean fileBean);
 }

@@ -20,4 +20,6 @@ public interface FileDao {
     List<FileBean> findFile(FileBean fileBean);
 
     int findAllByCategory(String category);
+
+    List<FileBean> findList(FileBean fileBean);
 }

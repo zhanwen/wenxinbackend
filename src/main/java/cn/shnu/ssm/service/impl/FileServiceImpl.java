@@ -46,6 +46,18 @@ public class FileServiceImpl implements FileService{
         return bean;
     }
 
+    public FileBean findList(FileBean fileBean) {
+        int pageNos = fileBean.getPageNos();
+        int pageSize = fileBean.getPageSize();
+        int start = (pageNos-1)*pageSize;
+        fileBean.setPageNos(start);
+        List<FileBean> lists = fileDao.findList(fileBean);
+        FileBean bean = new FileBean();
+        bean.setResultList(lists);
+        return bean;
+    }
+
+
     public int findAllByCategory(String category) {
         return fileDao.findAllByCategory(category);
     }

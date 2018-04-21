@@ -73,8 +73,8 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="http://teacher.shnu.edu.cn/xxjdgcxy/zb/list.htm" style="color: cornflowerblue">张波</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="http://teacher.shnu.edu.cn/xxjdgcxy/zq/list.htm" style="color: cornflowerblue">赵勤</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="http://hanwen.me" style="color: cornflowerblue">倪琴</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="http://hanwen.me" style="color: cornflowerblue">廉洁</a>
+				<a href="http://teacher.shnu.edu.cn/xxjdgcxy/nq/list.htm" style="color: cornflowerblue">倪琴</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="http://teacher.shnu.edu.cn/xxjdgcxy/lj/list.htm" style="color: cornflowerblue">廉洁</a>
 			</p>
 		</h3>
 		<div class="clear"></div>

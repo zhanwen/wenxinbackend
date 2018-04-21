@@ -103,7 +103,7 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class='active'> <a href="${pageContext.request.getContextPath()}/fileOperator/fileList">文件列表<span class="sr-only">(current)</span></a></li>
+                <li class='active'> <a href="${pageContext.request.getContextPath()}/admin/fileList">文件列表<span class="sr-only">(current)</span></a></li>
             </ul>
             <ul class="nav nav-sidebar">
             </ul>
@@ -124,7 +124,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <c:forEach items="${fileList}" var="file">
+                    <c:forEach items="${fileBean.resultList}" var="file">
                         <tr>
                             <td>
                                 <c:if test="${file.category == 1}">社交网络</c:if>
@@ -142,6 +142,20 @@
                     </c:forEach>
                     </tbody>
                 </table>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <c:if test="${fileBean.pageNos > 1}">
+                              <li><a href="${pageContext.request.getContextPath()}/admin/fileList?pageNos=1">首页</a></li>
+                              <li><a href="${pageContext.request.getContextPath()}/admin/fileList?pageNos=${fileBean.pageNos-1}">上一页</a></li>
+                            </c:if>
+                            <c:if test="${fileBean.pageNos < fileBean.totalPage}">
+                                <li><a href="${pageContext.request.getContextPath()}/admin/fileList?pageNos=${fileBean.pageNos+1}">下一页</a></li>
+                                <li><a href="${pageContext.request.getContextPath()}/admin/fileList?pageNos=${fileBean.totalPage}">尾页</a></li>
+                            </c:if>
+                            <li class="disabled"><a style="color: #6F6F6F">第${fileBean.pageNos}页</a></li>
+                            <li class="disabled"><a style="color: #6F6F6F">共${fileBean.totalPage}页</a></li>
+                        </ul>
+                    </nav>
             </div>
         </div>
     </div>

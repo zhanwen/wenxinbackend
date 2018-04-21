@@ -1,7 +1,9 @@
 package cn.shnu.ssm.controller;
 
+import cn.shnu.ssm.pojo.FileBean;
 import cn.shnu.ssm.pojo.Teacher;
 import cn.shnu.ssm.pojo.User;
+import cn.shnu.ssm.service.FileService;
 import cn.shnu.ssm.service.UserService;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +24,8 @@ import java.util.List;
 public class MangerController {
     @Autowired
     private UserService userService;
+    @Autowired
+    private FileService fileService;
 
     @RequestMapping("login")
     public ModelAndView login() {
@@ -277,4 +281,30 @@ public class MangerController {
         }
         return modelAndView;
     }
+
+    @RequestMapping("fileList")
+    public ModelAndView fileList(HttpServletRequest request){
+        ModelAndView modelAndView = new ModelAndView();
+        if(request.getSession().getAttribute("admin") == null) {
+            modelAndView.setViewName("/admin/login");
+        }else {
+            FileBean fileBean = new FileBean();
+            int pageNos;
+            String pageNum = request.getParameter("pageNos");
+            if(pageNum == null || Integer.valueOf(pageNum) < 1) {
+                pageNos = 1;
+            }else {
+                pageNos = Integer.valueOf(pageNum);
+            }
+            fileBean.setPageNos(pageNos);
+            List<FileBean> fileList = fileService.findAll();
+            FileBean files = fileService.findList(fileBean);
+            int totalSize = fileList.size();
+            files.setTotalPage(totalSize/fileBean.getPageSize() + 1);
+            files.setPageNos(pageNos);
+            modelAndView.addObject("fileBean", files);
+        }
+        return modelAndView;
+    }
+
 }

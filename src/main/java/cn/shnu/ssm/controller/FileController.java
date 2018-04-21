@@ -148,7 +148,7 @@ public class FileController {
         fileService.save(fileBean);
         List<FileBean> fileList = fileService.findAll();
         modelAndView.addObject("fileList", fileList);
-        modelAndView.setViewName("redirect:/fileOperator/fileList");
+        modelAndView.setViewName("redirect:/admin/fileList");
         return modelAndView;
     }
 
@@ -164,7 +164,7 @@ public class FileController {
             fileService.delete(fileBean);
             List<FileBean> fileList = fileService.findAll();
             modelAndView.addObject("fileList", fileList);
-            modelAndView.setViewName("/admin/fileList");
+            modelAndView.setViewName("redirect:/admin/fileList");
         }
         return modelAndView;
     }
@@ -198,7 +198,7 @@ public class FileController {
             } else {
                 // 设置相应头，控制浏览器下载该文件，这里就是会出现当你点击下载后，出现的下载地址框
                 response.setHeader("content-disposition",
-                        "attachment;filename=" + URLEncoder.encode(filename, "utf-8"));
+                        "attachment;filename=" + filename);
                 // 读取要下载的文件，保存到文件输入流
                 FileInputStream in = new FileInputStream(uploadpath + "/" + destinationfileName);
                 // 创建输出流
