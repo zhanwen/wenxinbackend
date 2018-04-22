@@ -7,42 +7,507 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f5da609-3653-48be-aab7-477f919e0929" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/BigDataLibrary.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/ScholarController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/academicDissertations.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchPages.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/academic2013.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/academic2014.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/academic2015.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/academic2016.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/page2013.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/page2014.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/page2015.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/page2016.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/softwareCopyright.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SparkData.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BigDataLibrary.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/BigDataLibrary.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/BigDataLibrary_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/BigDataLibrary_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/direction.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/direction.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/bigDataDig.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/bigDataDig.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/computerVision.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/computerVision.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/deepLearning.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/deepLearning.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/informationRecommend.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/informationRecommend.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/machineLearn.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/machineLearn.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/nlp.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download/nlp.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchProject.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchProject.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/successResult.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/direction.jsp" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/direction.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download.jsp" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/researchProject.jsp" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/researchProject.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/successResult.jsp" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/successResult.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/team.jsp" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/team.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/style.css" afterPath="$PROJECT_DIR$/target/ssm/static/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/404.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/FileController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/MangerController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/ProjectController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/ResearchController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/ScholarController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/ScholarCtroller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/TeamController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/UploadController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/controller/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/FileDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/FileDao.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/TeamDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/TeamDao.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/dao/UserDao.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/pojo/FileBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/pojo/Teacher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/pojo/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/FileService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/TeamService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/impl/FileServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/impl/TeamServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/service/impl/UserServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/cn/shnu/ssm/util/FileUploadingUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/config/db.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/config/mybatis/SqlMapConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/config/spring/applicationContext-dao.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/config/spring/applicationContext-service.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/config/spring/applicationContext-transaction.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/config/spring/springmvc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/generatorConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/aspectjrt-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-logging-api-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/google-collect-snapshot-20080530.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/json-20150729.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/log4j-1.2.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/maven-artifact-3.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/maven-compat-3.0-alpha-2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/maven-model-3.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/maven-plugin-api-3.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/maven-project-3.0-alpha-2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/maven-project-builder-3.0-alpha-2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/model-builder-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-3.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-generator-core-1.3.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-generator-maven-plugin-1.3.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/plexus-classworlds-2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/plexus-container-default-1.0-beta-3.0.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/plexus-interpolation-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/plexus-utils-3.0.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/servlet-api-2.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/sisu-guava-0.9.9.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/sisu-guice-3.1.0-no_aop.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/sisu-inject-bean-2.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/sisu-inject-plexus-2.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-oxm-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-test-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/stax-api-1.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/wagon-provider-api-1.0-beta-4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/wstx-asl-3.2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/xbean-reflect-3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/academicDissertations.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/addFile.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/fileList.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/login.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/manager.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/studentUpdate.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/teacher.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/teacherUpdate.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/admin/updateTeacher.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/contact.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/direction.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download/bigDataDig.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download/computerVision.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download/deepLearning.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download/informationRecommend.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download/machineLearn.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/download/nlp.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/researchPages.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/researchProject.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/academic2013.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/academic2014.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/academic2015.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/academic2016.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/page2013.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/page2014.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/page2015.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/scholar/page2016.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/softwareCopyright.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/successResult.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/pages/team.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/addStudent.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/login.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/manager.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/student.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/studentUpdate.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/teacher.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/teacherUpdate.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/admin/updateTeacher.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/findUser.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/login.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/profile.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/project/scienceProject.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/researchDirection/researchDirection.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/academicPages.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/academicPages2013.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/academicPages2014.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/academicPages2015.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/academicPages2016.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/common.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/page2013.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/page2014.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/page2015.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/page2016.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/researchPages.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/schoolResult.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/school/softwareResult.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/setpassword.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/team/team.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/updateProfile.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/views/uploadImage.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/base.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/CHANGES.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/adapters/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/build-config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/ckeditor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/contents.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/af.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/bn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/bs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/cy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/en-au.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/en-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/en-gb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/eo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/eu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/fo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/fr-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/gu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/is.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ka.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ko.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ku.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/mn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/no.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/pt-br.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/si.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/sq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/sr-latn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/ug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/zh-cn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/lang/zh.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/fakeobjects/images/spacer.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/icons_hidpi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/image/images/noimage.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/link/images/anchor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/scayt/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/ajax.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/api.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/appendto.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/assets/inlineall/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/assets/posteddata.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/assets/sample.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/assets/sample.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/assets/uilanguages/languages.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/datafiltering.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/divreplace.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/inlineall.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/inlinebycode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/inlinetextarea.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/jquery.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/dialog/dialog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/enterkey/enterkey.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/magicline/magicline.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/toolbar/toolbar.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/readonly.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/replacebyclass.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/replacebycode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/sample.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/sample.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/sample_posteddata.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/tabindex.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/uicolor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/uilanguages.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/samples/xhtmlstyle.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/dialog.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/dialog_opera.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/editor.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/editor_ie.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/icons_hidpi.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/hidpi/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/lock-open.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/lock.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/images/refresh.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/skins/moono/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/ckeditor/styles.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/footer.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/dashboard.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/ie10-viewport-bug-workaround.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/layer.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/lightbox.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/navbar-fixed-top.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/offcanvas.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/signin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/slider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/css/team.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/bigdata.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/centerinfor.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/cloud.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/favoricon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/flogo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/flogo2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/hanwen.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/iot.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/moon.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/banner1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/banner2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/banner3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/gallery1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/gallery2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/gallery3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/gallery4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/gallery5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/gallery6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/icon1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/icon2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/icon3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/img-sp.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/l-r-arrows.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/lightbox-btn-close.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/lightbox-btn-next.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/lightbox-ico-loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/logo.psd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/logo1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/pic4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/quotes_alt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/search_h.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/social-icons.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/staff1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/new/xy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/timg.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/images/xy.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/adminLogin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/confirm.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/holder.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/ie-emulation-modes-warning.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/ie8-responsive-file-warning.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/jquery-1.9.0.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/jquery-3.1.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/jquery.lightbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/jquery.nivo.slider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/layer.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/layer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/manager.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/offcanvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/theme/default/icon-ext.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/theme/default/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/theme/default/layer.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/theme/default/loading-0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/theme/default/loading-1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/static/js/theme/default/loading-2.gif" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +518,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="team.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +561,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/direction.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/researchProject.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/softwareCopyright.jsp" />
@@ -107,6 +582,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/academic2014.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/academic2015.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/scholar/academic2016.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp" />
       </list>
     </option>
   </component>
@@ -145,9 +621,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -196,13 +671,6 @@
               <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -221,26 +689,17 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BigDataLibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BigDataLibrary" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="scholar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.29770115" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="$USER_HOME$/.nvm/versions/node/v8.6.0/bin/node" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -345,9 +804,7 @@
       <listeners />
     </configuration>
     <configuration name="T7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.81" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="BigDataLibrary:war exploded">
           <settings>
@@ -416,6 +873,9 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="BigDataLibrary:war exploded" />
         </option>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BigDataLibrary:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -444,15 +904,18 @@
       <option name="presentableId" value="Default" />
       <updated>1524322869310</updated>
       <workItem from="1524322872971" duration="1029000" />
-      <workItem from="1524357833047" duration="5304000" />
+      <workItem from="1524357833047" duration="5921000" />
+      <workItem from="1524363850891" duration="1704000" />
+      <workItem from="1524371310900" duration="120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6333000" />
+    <option name="totallyTimeSpent" value="8774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1382" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.50289434" order="7" side_tool="true" content_ui="tabs" />
@@ -465,18 +928,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.49710566" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49710566" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -484,6 +946,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -495,15 +958,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/school/page2013.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -511,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="28" column="42" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,14 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/download.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -551,7 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="77" column="14" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="77" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="917" column="0" lean-forward="true" selection-start-line="917" selection-start-column="0" selection-end-line="917" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="156" lean-forward="true" selection-start-line="23" selection-start-column="152" selection-end-line="23" selection-end-column="156" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
           <caret line="19" column="117" lean-forward="false" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="117" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,9 +1050,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="130" column="130" lean-forward="true" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="130" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +1058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="30" column="125" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="30" selection-end-column="125" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="62" column="104" lean-forward="false" selection-start-line="62" selection-start-column="100" selection-end-line="62" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="62" column="104" lean-forward="false" selection-start-line="62" selection-start-column="104" selection-end-line="62" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +1079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="62" column="104" lean-forward="false" selection-start-line="62" selection-start-column="104" selection-end-line="62" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="62" column="104" lean-forward="false" selection-start-line="62" selection-start-column="104" selection-end-line="62" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="69" column="55" lean-forward="false" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-257">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +1131,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="29" column="119" lean-forward="false" selection-start-line="29" selection-start-column="119" selection-end-line="29" selection-end-column="119" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="29" column="111" lean-forward="false" selection-start-line="29" selection-start-column="111" selection-end-line="29" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="29" column="111" lean-forward="false" selection-start-line="29" selection-start-column="111" selection-end-line="29" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="29" column="119" lean-forward="false" selection-start-line="29" selection-start-column="119" selection-end-line="29" selection-end-column="119" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +1159,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="29" column="111" lean-forward="false" selection-start-line="29" selection-start-column="111" selection-end-line="29" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="29" column="111" lean-forward="false" selection-start-line="29" selection-start-column="111" selection-end-line="29" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +1195,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,6 +1202,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="65" column="50" lean-forward="false" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shnu/ssm/controller/MangerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/team.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -771,7 +1227,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>BigDataLibrary:war exploded</last-edited>
+          <last-edited>BigDataLibrary</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
