@@ -26,6 +26,7 @@
 				<li><a href='${pageContext.request.getContextPath()}/new/team'><span>科研团队</span></a></li>
 				<li><a href='${pageContext.request.getContextPath()}/new/researchProject'><span>科研项目</span></a></li>
 				<li class='has-sub'><a href='${pageContext.request.getContextPath()}/new/successResult'><span>成果和奖励</span></a></li>
+				<li><a href='${pageContext.request.getContextPath()}/scholar/patent'><span>学术成就</span></a></li>
 				<li class='last'><a href='${pageContext.request.getContextPath()}/new/download'><span>下载中心</span></a></li>
 				<div class="clear"></div>
 			</ul>

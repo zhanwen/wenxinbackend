@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BigDataLibrary">
+    <output-path>$PROJECT_DIR$/classes/artifacts/BigDataLibrary</output-path>
+    <root id="archive" name="BigDataLibrary.war" />
+  </artifact>
+</component>
