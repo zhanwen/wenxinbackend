@@ -8,6 +8,8 @@
     <result column="category" jdbcType="VARCHAR" property="category" />
     <result column="uploadTime" jdbcType="VARCHAR" property="date" />
     <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="publictime" jdbcType="VARCHAR" property="publicTime" />
   </resultMap>
 
 
@@ -20,7 +22,7 @@
   </delete>
 
   <insert id="save" parameterType="cn.shnu.ssm.pojo.FileBean">
-    INSERT INTO file (fileName, filePath, category, uploadTime, name) VALUES (#{fileName}, #{filePath}, #{category}, #{date}, #{name})
+    INSERT INTO file (fileName, filePath, category, uploadTime, name, author, publictime) VALUES (#{fileName}, #{filePath}, #{category}, #{date}, #{name}, #{author}, #{publicTime})
   </insert>
 
   <select id="findFile" resultMap="BaseResultMap" parameterType="cn.shnu.ssm.pojo.FileBean">

@@ -21,6 +21,25 @@ public class FileBean {
     private List<FileBean> resultList;
     private int pageNos;
 
+    private String author;
+    private String publicTime;
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getPublicTime() {
+        return publicTime;
+    }
+
+    public void setPublicTime(String publicTime) {
+        this.publicTime = publicTime;
+    }
+
     public String getName() {
         return name;
     }

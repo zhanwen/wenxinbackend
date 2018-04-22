@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-<title>Staff</title>
+<title>团队</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
@@ -94,7 +94,7 @@
 		<p style="color: dodgerblue; text-align:center">2014级</p>
 		<p>宋锋</p>
 		<p style="color: dodgerblue; text-align:center">2013级</p>
-		<p>宋倩倩&nbsp;&nbsp;&nbsp;&nbsp;胡斯卉&nbsp;&nbsp;&nbsp;&nbsp;袁海雷</p>
+		<p>宋倩倩&nbsp;&nbsp;&nbsp;&nbsp;胡斯卉&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://user.qzone.qq.com/1398906513?ADUIN=1398906513&ADSESSION=1524356788&ADTAG=CLIENT.QQ.5563_MyInfo_PersonalInfo.0&ADPUBNO=26785&source=namecardstar">袁海雷</a></p>
 		<p style="color: dodgerblue; text-align:center">2012级</p>
 		<p>韦法转</p>
 	</nav>

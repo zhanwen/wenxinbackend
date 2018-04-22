@@ -71,6 +71,27 @@
         }
     </script>
 
+    <style type="text/css">
+        table td{white-space:nowrap;overflow:hidden; text-overflow:ellipsis;}
+        table {
+            table-layout: fixed;
+        }
+
+        /*table tr td:first-child{*/
+            /*width: 100px;*/
+        /*}*/
+
+        /*table tr td:nth-child(2) {*/
+            /*width: 50px;*/
+        /*}*/
+        /*table tr td:nth-child(3) {*/
+            /*width: 170px;*/
+        /*}*/
+        /*table tr td:nth-child(4) {*/
+            /*width: 50px;*/
+        /*}*/
+    </style>
+
 </head>
 
 <body>
@@ -86,7 +107,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="${pageContext.request.getContextPath()}/admin/students">大数据和物联网实验室</a>
+            <a class="navbar-brand" href="${pageContext.request.getContextPath()}/admin/fileList">大数据和物联网实验室</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -117,10 +138,12 @@
                 <table class="table table-striped">
                     <thead>
                     <tr>
-                        <th>文件类别</th>
-                        <th>文件名</th>
-                        <th>上传时间</th>
-                        <th>操作</th>
+                        <th width="11%">文件类别</th>
+                        <th width="15%">作者</th>
+                        <th width="9%">发表时间</th>
+                        <th width="40%" >文件名</th>
+                        <th width="20%">上传时间</th>
+                        <th width="5%">操作</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -135,9 +158,11 @@
                                 <c:if test="${file.category == 6}">计算机视觉</c:if>
                                 <c:if test="${file.category == 7}">大数据挖掘</c:if>
                             </td>
-                            <td>${file.fileName}</td>
-                            <td>${file.date}</td>
-                            <td><a onclick="return deleteConfirm()" href="${pageContext.request.getContextPath()}/fileOperator/deleteFile?id=${file.id}">删除</a></td>
+                            <td >${file.author}</td>
+                            <td >${file.publicTime}</td>
+                            <td id="showAll" class="filename">${file.fileName}</td>
+                            <td >${file.date}</td>
+                            <td ><a onclick="return deleteConfirm()" href="${pageContext.request.getContextPath()}/fileOperator/deleteFile?id=${file.id}">删除</a></td>
                         </tr>
                     </c:forEach>
                     </tbody>

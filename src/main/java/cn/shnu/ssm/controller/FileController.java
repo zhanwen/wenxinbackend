@@ -68,6 +68,8 @@ public class FileController {
         String fileName = "";
         String virtualName = "";
         String categoryId = "";
+        String author = "";
+        String publicTime = "";
         try {
             // 1. 文件上传工厂
             FileItemFactory factory = new DiskFileItemFactory();
@@ -91,8 +93,16 @@ public class FileController {
                     if (item.isFormField()){
                         // 普通文本数据
                         String fieldName = item.getFieldName();    // 表单元素名称
-                        String content = item.getString();        // 表单元素名称， 对应的数据
-                        categoryId = content;
+                        if("selectId".equals(fieldName)) {
+                            categoryId = item.getString();        // 表单元素名称， 对应的数据
+                        }
+                        if("author".equals(fieldName)) {
+                            author = item.getString();
+                        }
+                        if("publictime".equals(fieldName)) {
+                            publicTime = item.getString();
+                        }
+
                     }
                     // 上传文件(文件流) ----> 上传到upload目录下
                     else {
@@ -136,6 +146,7 @@ public class FileController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         FileBean fileBean = new FileBean();
         fileBean.setName(fileName);
         fileBean.setFileName(virtualName);
@@ -145,6 +156,8 @@ public class FileController {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String dateString = formatter.format(currentTime);
         fileBean.setDate(dateString);
+        fileBean.setAuthor(author);
+        fileBean.setPublicTime(publicTime);
         fileService.save(fileBean);
         List<FileBean> fileList = fileService.findAll();
         modelAndView.addObject("fileList", fileList);

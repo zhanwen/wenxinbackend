@@ -46,7 +46,7 @@
                 var fileSize = this.files[0].size;
                 var size = fileSize / 1024 / 1024;
                 if (size > 20) {
-                    alert("附件不能大于5M,请将文件压缩后重新上传！");
+                    alert("附件不能大于20M,请将文件压缩后重新上传！");
                     this.value="";
                     return false;
                 }else{
@@ -119,7 +119,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="${pageContext.request.getContextPath()}/admin/students">大数据和物联网实验室</a>
+            <a class="navbar-brand" href="${pageContext.request.getContextPath()}/admin/fileList">大数据和物联网实验室</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -136,7 +136,7 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li <c:if test="${active == 'student'}">class='active'</c:if>> <a href="${pageContext.request.getContextPath()}/admin/students">文件列表<span class="sr-only">(current)</span></a></li>
+                <li class='active'> <a href="${pageContext.request.getContextPath()}/admin/fileList">文件列表<span class="sr-only">(current)</span></a></li>
             </ul>
             <ul class="nav nav-sidebar">
             </ul>
@@ -160,6 +160,24 @@
                         </select>
                     </div>
                 </div>
+
+                <div class="form-group">
+                    <label for="author" class="col-sm-2 control-label">作者</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="author" name="author">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="publictime" class="col-sm-2 control-label">发表时间</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="publictime" name="publictime">
+                    </div>
+                    <div class="col-sm-5">
+                        <input readonly="readonly" value="例如：2017.5" style="border: 0px;"/>
+                    </div>
+                </div>
+
                 <div class="form-group">
                     <label for="file_name" class="col-sm-2 control-label">文件名</label>
                     <input type="text" id="file_name" readonly="readonly" value="" />

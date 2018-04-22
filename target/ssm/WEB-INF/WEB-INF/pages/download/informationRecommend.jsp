@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-	<title>Contact</title>
+	<title>下载中心</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
@@ -50,7 +50,7 @@
 								<br>
 								<ul>
 									<c:forEach items="${fileBean.resultList}" var="bean">
-										<li style="padding-top: 10px"><a href="${pageContext.request.getContextPath()}/fileOperator/downloadFile?fileName=${bean.name}&filePath=${bean.filePath}&name=${bean.fileName}" style="color: #555555">${bean.fileName}</a></li>
+										<li style="padding-top: 10px"><a href="${pageContext.request.getContextPath()}/fileOperator/downloadFile?fileName=${bean.name}&filePath=${bean.filePath}&name=${bean.fileName}" style="color: #555555">${bean.fileName}&nbsp;&nbsp;&nbsp;&nbsp;作者:&nbsp;&nbsp;${bean.author.split(",")[0]}...&nbsp;&nbsp;&nbsp;&nbsp;发表时间：&nbsp;${bean.publicTime}</a></li>
 									</c:forEach>
 								</ul>
 							</div>

@@ -16,6 +16,12 @@
         $('#slider').nivoSlider();
     });
     </script>
+	<style type="text/css">
+		.main_a a{
+			color: #a94442;
+		}
+
+	</style>
 </head>
 <body>
 <div class="btm_border">
@@ -179,7 +185,7 @@
 <div class="main_bg">
 	<div class="wrap">
 	<div class="main">
-		<div class="content">
+		<div class="content main_a">
 			<h2>科普文章</h2>
 			<br>
 			<ul>

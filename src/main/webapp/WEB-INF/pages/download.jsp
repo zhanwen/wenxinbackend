@@ -4,11 +4,18 @@
 <%@ page import="java.net.URLEncoder" %>
 <html>
 <head>
-<title>Contact</title>
+<title>下载中心</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
 <link href="${pageContext.request.getContextPath()}/static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<style type="text/css">
+	.display {
+		width:50px;
+		white-space:nowrap;overflow:hidden; text-overflow:ellipsis;
+	}
+</style>
 </head>
 <body>
 <div class="btm_border">
@@ -51,7 +58,7 @@
 							<br>
 							<ul>
 								<c:forEach items="${fileBean.resultList}" var="bean">
-									<li style="padding-top: 10px"><a href="${pageContext.request.getContextPath()}/fileOperator/downloadFile?fileName=${bean.name}&filePath=${bean.filePath}&name=${bean.fileName}" style="color: #555555">${bean.fileName}</a></li>
+									<li style="padding-top: 10px"><a class="display" href="${pageContext.request.getContextPath()}/fileOperator/downloadFile?fileName=${bean.name}&filePath=${bean.filePath}&name=${bean.fileName}" style="color: #555555">${bean.fileName}&nbsp;&nbsp;&nbsp;&nbsp;作者:&nbsp;&nbsp;${bean.author.split(",")[0]}...&nbsp;&nbsp;&nbsp;&nbsp;发表时间：&nbsp;${bean.publicTime}</a></li>
 								</c:forEach>
 							</ul>
 						</div>
