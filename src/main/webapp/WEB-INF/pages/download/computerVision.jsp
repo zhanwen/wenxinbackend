@@ -65,7 +65,7 @@
 									<a href="${pageContext.request.getContextPath()}/new/download?pageNos=${fileBean.pageNos+1}" style="color: #6F6F6F">下一页</a>
 									<a href="${pageContext.request.getContextPath()}/new/download?pageNos=${fileBean.totalPage}" style="color: #6F6F6F">尾页</a>
 								</c:if>
-								<c:if test="${map['npl'] != 0}">
+								<c:if test="${map['computerVision'] != 0}">
 									<a style="color: #6F6F6F">第${fileBean.pageNos}页</a>
 									<a style="color: #6F6F6F">共${fileBean.totalPage}页</a>
 								</c:if>

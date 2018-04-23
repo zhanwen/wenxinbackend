@@ -153,11 +153,12 @@
 			<h2>科研项目 <a href="${pageContext.request.getContextPath()}/new/researchProject" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
 			<br>
 			<ul>
-				<li><p>1、云存储的隐私保护与安全保障机制，国家自然科学基金重点，2013.1-2017.12</p></li>
-				<li><p>2、适应用户兴趣漂移的知识结构组织和学习服务推荐方法，国家自然基金青年，2014.1-2016.12</p></li>
-				<li><p>3、云安全的可信服务及示范应用，国家863计划重点，2015.1-2017.12</p></li>
-				<li><p>4、大数据平台信息安全关键技术研发，深圳市科技攻关计划重点，2014.7-2016.12</p></li>
-				<li><p>5、基于分数阶动力系统的IT 服务项目管理文化的混沌特性研究，教育部博士点基金，2014.1-2016.12</p></li>
+				<li><p><span style="font-size: 14px;">&nbsp;&nbsp;1、国家自然科学基金(71170148)：基于语义计算的高维复杂数据降维理论与实证研究，2012.1-2015.12，。主要参与者（排名3） </span></p></li>
+				<li><p><span style="font-size: 14px;">&nbsp;&nbsp;2、国家科技支撑计划课题(2012BAD35B01-4)：“农村可视化信息资源云服务技术研究”，2012.1-2013.12。主要参与者（排名2）</span></p></li>
+				<li><p><span style="font-size: 14px;">&nbsp;&nbsp;3、国国家自然科学基金（61272268）：“云计算架构下基于语义驱动的信息推荐理论和实证研究”，2013.1-2016.12。主要参与者（排名2）</span></p></li>
+				<li><p><span style="font-size: 14px;">&nbsp;&nbsp;4、2011年上海市科技创新计划(11DZ1501703)：基于金融云的信息服务模式研究及应用，2011.10-2013.9。主要参与者（排名2）。</span></p></li>
+				<li><p><span style="font-size: 14px;">&nbsp;&nbsp;5、国家自然科学基金(61105047): 基于PAM概率主题模型的本体概念及层次结构学习研究，2012.1-2014.12。(排名3)</span></p></li>
+
 			</ul>
 			<div class="clear"></div>
 		</div>
@@ -171,11 +172,11 @@
 				<h2>专利<a href="${pageContext.request.getContextPath()}/new/successResult" style="float: right; font-size: 20px; color: #a5a5a5;">更多>></a></h2>
 				<br>
 				<ul>
-					<li><p>1、张旱文，基于问答网站知识的软件配置故障自动修复方法和系统，专利申请号：201610202074.2</p></li>
-					<li><p>2、张旱文，电影上座率预测方法和系统，专利申请号：201610450944</p></li>
-					<li><p>3、张旱文，云计算系统中高频次连续失效任务的在线识别方法和系统，专利申请号：CN 201510649451.2</p></li>
-					<li><p>4、张旱文，基于互联网日志数据的软件缺陷故障识别方法和系统，专利申请号：CN 201510977321.1</p></li>
-					<li><p>5、张旱文，基于多云存储的智能移动终端数据存储备份方法与系统，专利申请号：CN 201410219412.4</p></li>
+					<li><p>1、张旱文，基于xxxxxxxxxxxxxxxxxx系统，专利申请号：xxxxxxxxxxxx</p></li>
+					<li><p>2、张旱文，基于xxxxxxxxxxxxxxxxxx系统，专利申请号：xxxxxxxxxxxx</p></li>
+					<li><p>3、张旱文，基于xxxxxxxxxxxxxxxxxx系统，专利申请号：xxxxxxxxxxxx</p></li>
+					<li><p>4、张旱文，基于xxxxxxxxxxxxxxxxxx系统，专利申请号：xxxxxxxxxxxx</p></li>
+					<li><p>5、张旱文，基于xxxxxxxxxxxxxxxxxx系统，专利申请号：xxxxxxxxxxxx</p></li>
 				</ul>
 				<div class="clear"></div>
 			</div>

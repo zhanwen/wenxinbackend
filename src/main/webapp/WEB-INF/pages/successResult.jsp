@@ -50,9 +50,9 @@
 					<div class="services-grids">
 						<div class="services-grid">
 							<h2><a href="${pageContext.request.getContextPath()}/scholar/researchPages">发表论文</a></h2>
-							<p>1、Tong Jia, Pengfei Chen, Lin Yang, Ying Li*, et al, An approach for anomaly diagnosis based on hybrid graph model with logs for distributed services, 14th IEEE International Conference on Web Services (IEEE ICWS 2017) , June 26-July1,Hawaii,USA</p>
-							<p>2、Tong Jia, Lin Yang, Pengfei Chen, Ying Li*, et al, LogSed: Anomaly diagnosis through mining time-weighted control flow graph in logs, IEEE International Conference on Cloud Computing (IEEE Cloud 2017), June 26-July1,Hawaii,USA</p>
-							<p>3、Bin Fu, Hongzhi Liu, Zhengshen Jiang, Zhonghai Wu, & D. Frank Hsu. A Feature Selection Framework Based on Supervised Data Clustering, I-SPAN 2017, Exeter, UK, June 21-23, 2017. (EI)</p>
+							<p>1、Zhang Bo*, Zhang Qian, Huang Zhenhua, Li Meizi, Li Luqun. A Multi-Criteria Collusive Fraud Organization Detection Scheme for Reputation Aggregation in Social Networks, Future Generation Computer Systems, Volume 79, Part 3, February 2018, Pages 797-814 (SCI)</p>
+							<p>2、Zhang Bo, Zhang Huan, Li Meizi*, Zhao Qin, Huang Jifeng. Trust Traversal: A Trust Link Detection Scheme in Social Network, Computer Networks, Volume 120, 19 June 2017, Pages 105–125 (SCI:000401877300008)</p>
+							<p>3、Zhang Bo; Yong Ruihan; Li Meizi*, Pan Jianguo, Huang Jifeng. A Hybrid Trust Evaluation Framework for E-commerce in Online Social Network: A Factor Enrichment Perspective, IEEE Access, 2017,Volume 5: 7080 - 7096 (SCI:000403140800028)</p>
 						</div>
 						<%--<div class="services-grid">--%>
 							<%--<a href="">发明专利</a>--%>
@@ -62,13 +62,10 @@
 							<%--<p>4、专利4</p>--%>
 						<%--</div>--%>
 						<div class="services-grid">
-							<a href="${pageContext.request.getContextPath()}/scholar/patent">软件著作权</a>
-							<p>1、张旱文，云存储客户端数据安全服务。著作权登记号 2011SR052487</p>
-							<p>2、云存储数据安全访问服务。著作权登记号 2011SR054439</p>
-							<p>3、云存储数据安全内迁服务。著作权登记号 2011SR052173</p>
-							<p>4、云存储数据安全外迁服务。著作权登记号2011SR054810</p>
-							<p>5、一种自主授权的CP -ABE系统和方法，国家发明专利，授权专利号</p>
-							<p>6、基于多云存储的智能移动终端数据存储备份方法与系统，国家发明专利，授权专利号：ZL201410219412.4，授权日期：2017.3.15</p>
+							<a href="${pageContext.request.getContextPath()}/scholar/patent"></a><br/><br/>
+							<p>4、Qin Zhao, Cheng Wang, Pengwei Wang, Mengchu Zhou, Changjun Jiang*. A Novel Method on Information Recommendation via Hybrid Similarity. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2018, 48(3): 448-459. (SCI)</p>
+							<p>5、Qin Zhao, Yuan He, Changjun Jiang*, Pengwei Wang, Man Qi, Maozhen Li. Integration of Link and Semantic Relations for Information Discovery and Recommendation. Computing and Informatics, 2016, 35(1): 30-54. (SCI)</p>
+							<p>6、Qin Zhao*, Cheng Wang, Changjun Jiang. HSim: A Novel Method on Similarity Computation by Hybrid Measure. The Proceedings of 2015 IEEE International Conference on Information and Communication Systems (ICICS), pp. 160-165, 2015. (EI)</p>
 						</div>
 						<!--<div class="services-grid">-->
 							<!--<a href="#">consectetur adiing</a>-->

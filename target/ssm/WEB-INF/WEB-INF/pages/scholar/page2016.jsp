@@ -66,20 +66,9 @@
 								<span><strong>2016年</strong></span>
 								<br>
 								<ol>
-									<li>Zhengshen Jiang, Hongzhi Liu*, Bin Fu, Zhonghai Wu*. Generalized Ambiguity Decompositions for Classification with Applications in Active Learning and Unsupervised Ensemble Pruning, Thirty-First AAAI Conference on Artificial Intelligence (AAAI 2017), February 4-9, 2017, San Francisco, California, USA.（CCF A类） </li>
-									<li>Zhengshen Jiang, Hongzhi Liu*, Bin Fu, Zhonghai Wu*. Generalized Ambiguity Decompositions for Classification with Applications in Active Learning and Unsupervised Ensemble Pruning, Thirty-First AAAI Conference on Artificial Intelligence (AAAI 2017), February 4-9, 2017, San Francisco, California, USA.（CCF A类） </li>
-									<li>Zhengshen Jiang, Hongzhi Liu*, Bin Fu, Zhonghai Wu*. Generalized Ambiguity Decompositions for Classification with Applications in Active Learning and Unsupervised Ensemble Pruning, Thirty-First AAAI Conference on Artificial Intelligence (AAAI 2017), February 4-9, 2017, San Francisco, California, USA.（CCF A类） </li>
-									<li>Zhengshen Jiang, Hongzhi Liu*, Bin Fu, Zhonghai Wu*. Generalized Ambiguity Decompositions for Classification with Applications in Active Learning and Unsupervised Ensemble Pruning, Thirty-First AAAI Conference on Artificial Intelligence (AAAI 2017), February 4-9, 2017, San Francisco, California, USA.（CCF A类） </li>
-									<li>Zhengshen Jiang, Hongzhi Liu*, Bin Fu, Zhonghai Wu*. Generalized Ambiguity Decompositions for Classification with Applications in Active Learning and Unsupervised Ensemble Pruning, Thirty-First AAAI Conference on Artificial Intelligence (AAAI 2017), February 4-9, 2017, San Francisco, California, USA.（CCF A类） </li>
-									<li>Lian Yue,Wei-Tek Tsai,  Test-Case Generation for Boolean Expressions by Cell Covering,  IEEE Transactions on Software Engineering（TSE）, Feb 2017 . （CCF A类） </li>
-									<li>Lian Yue,Wei-Tek Tsai,  Test-Case Generation for Boolean Expressions by Cell Covering,  IEEE Transactions on Software Engineering（TSE）, Feb 2017 . （CCF A类） </li>
-									<li>Lian Yue,Wei-Tek Tsai,  Test-Case Generation for Boolean Expressions by Cell Covering,  IEEE Transactions on Software Engineering（TSE）, Feb 2017 . （CCF A类） </li>
-									<li>Lian Yue,Wei-Tek Tsai,  Test-Case Generation for Boolean Expressions by Cell Covering,  IEEE Transactions on Software Engineering（TSE）, Feb 2017 . （CCF A类） </li>
-									<li>Lian Yue,Wei-Tek Tsai,  Test-Case Generation for Boolean Expressions by Cell Covering,  IEEE Transactions on Software Engineering（TSE）, Feb 2017 . （CCF A类） </li>
-									<li>Lian Yue,Wei-Tek Tsai,  Test-Case Generation for Boolean Expressions by Cell Covering,  IEEE Transactions on Software Engineering（TSE）, Feb 2017 . （CCF A类） </li>
-									<li>Lian Yue,Wei-Tek Tsai,  Test-Case Generation for Boolean Expressions by Cell Covering,  IEEE Transactions on Software Engineering（TSE）, Feb 2017 . （CCF A类） </li>
-									<li>Jie Jiang, Jiawei Jiang, Bin Cui and Ce Zhang, TencentBoost: A Gradient Boosting Tree System with Parameter Server, IEEE International Conference on Data Engineering (ICDE2017), April 19-22, 2017,San Diego, California, USA.
-										（CCF A类） </li>
+									<li>Bo Zhang, Qianqian Song, Tao Yang*, Zhonghua Zheng, Huan Zhang A fuzzy collusive attack detection mechanism for reputation aggregation in mobile social network: a trust relationship based perspective, Mobile Information Systems, 2016 (SCI: 000373498500001)</li>
+									<li>Qin Zhao, Yuan He, Changjun Jiang*, Pengwei Wang, Man Qi, Maozhen Li. Integration of Link and Semantic Relations for Information Discovery and Recommendation. Computing and Informatics, 2016, 35(1): 30-54. (SCI) </li>
+									<li>Qin Zhao, Cheng Wang, Pengwei Wang. Novel Method on Community-based User Recommendation on Social Network. Computer Science, 2016, 43(5): 198-203. (CSCD)</li>
 								</ol>
 							</div>
                         </div>

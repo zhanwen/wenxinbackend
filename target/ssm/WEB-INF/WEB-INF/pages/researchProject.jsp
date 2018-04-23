@@ -39,83 +39,91 @@
 </div>
 </div>
 <!--main-->
-<div class="main_btm">
+<div class="main_bg">
 <div class="wrap">
 	<div class="main">
 
 		<div class="about-header">
-			<h3>国家级课题</h3>
+			<h3>科研项目</h3>
 			<div class="clear"> </div>
 		</div>
 		<div class="about-info">
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;1、国家自然科学基金面上（61672062），构建高可信云操作系统的若干关键技术研究，2017.1-2020.12 </span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;2、国家自然科学基金重点（61232005），云存储的隐私保护与安全保障机制， 2013.1-2017.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;3、国家863计划主题（2015AA016009），云安全的可信服务及在教育云的示范验证，2015.1-2017.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;4、国家自然科学基金青年（61402020），适应用户兴趣漂移的知识结构组织和学习服务推荐方法， 2014.1-2016.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;5、国家科技支撑计划（2012BAH06B01），移动互联网与宽带网融合的在线数据服务平台， 2012.1-2015.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;6、国家自然基金面上项目（61170002），软件外包模型驱动开发方法中模型伪装与转换理论研究， 2012.1-2015.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;7、国家自然科学基金重点（61033005），面向价值的软件服务方法论：理论、方法及应用，2011.1-2014.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;8、国家科技支撑计划（2012BAH18B04），新媒体资源编解码关键技术研究及原型系统， 2012.1-2014.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;9、国家科技支撑计划（2011BAH14B02），新型网络终端操作系统社区版本，2011.1-2013.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;10、国家科技重大专项，基于解释型语言的移动应用安全，2012.1-2013.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;11、国家自然基金面上（61073156），面向可信云服务的广义虚拟可信计算平台关键技术研究， 2011.1-2013.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;12、国家自然科学基金面上（61070237），基于SOM神经网络模型的网络入侵检测方法研究， 2011.1-2013.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;13、丹麦科技创新部重点（2106-08-0046），Services in Context， 2010.1-2013.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;14、国家自然科学基金面上（60970135），可信操作系统的基本理论与关键技术研究， 2010.1-2012.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;15、国家自然科学基金面上项目（60873238），以应用安全为核心的可信虚拟监控器安全机制研究，2009.1-2011.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;16、国家科技重大专项（2009ZX01036-002），国产操作系统参考实现之7，2009.1-2011.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;17、国家863计划（2009AA04Z120），面向服务的供应链协同管理系统，2009.1-2011.12 </span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;18、国家自然科学基金面上（60973001），基于互联网协同实时编辑软件的自动化测试技术， 2010.1-2012.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;19、国家自然科学基金面上（60704027），面向服务的业务协同建模、运行和性能评价研究， 2008.1-2010.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;20、国家科技重大专项（2009ZX01039-001）面向新型网络应用模式的网络化操作系统，，2009.1-2010.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;21、国家863计划（2007AA04Z150），基于本体的集成服务系统，2007.1-2009.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;22、国家科技支撑计划（2005BA115A03），国产基础软件平台体系之14，2005.1-2007.12</span></p>
-				<p><span style="font-size: 14px;">&nbsp;&nbsp;23、国家863计划（306-ZD06-02-9），电视台数字化系统，1999.1-2001.12</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;1、国家自然科学基金(71170148)：基于语义计算的高维复杂数据降维理论与实证研究，2012.1-2015.12，。主要参与者（排名3） </span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;2、国家科技支撑计划课题(2012BAD35B01-4)：“农村可视化信息资源云服务技术研究”，2012.1-2013.12。主要参与者（排名2）</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;3、国国家自然科学基金（61272268）：“云计算架构下基于语义驱动的信息推荐理论和实证研究”，2013.1-2016.12。主要参与者（排名2）</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;4、2011年上海市科技创新计划(11DZ1501703)：基于金融云的信息服务模式研究及应用，2011.10-2013.9。主要参与者（排名2）。</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;5、国家自然科学基金(61105047): 基于PAM概率主题模型的本体概念及层次结构学习研究，2012.1-2014.12。(排名3)</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;6、国家自然科学基金(70771077)：基于语义的新一代决策支持系统关键问题研究。主要完成人（排名4）</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;7、国家高性能发展计划 (863) (2008AA04Z106)：基于客户数据语义智能分析的营销策略决策支持系统研究。主要完成人。</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;8、国家自然科学基金青年科学基金项目“基于情感的社交网络信息推荐关键技术研究”（项目编号61702333），主持。</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;9、国家重点基础研究发展计划（973计划）项目“信息服务的模型与机理研究”（项目编号2010CB328100），参与。</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;10、国家自然科学基金重大研究计划集成项目“可信网络交易软件系统试验环境与示范应用”（项目编号91218301），参与。</span></p>
 		</div>
 
 	</div>
 </div>
 </div>
 <!--footer-->
-<div class="footer-bg">	
+<div class="main_btm">
 <div class="wrap">
 <div class="footer">
 
 	<div class="about-header">
-		<h3>省部级及产学研课题</h3>
+		<h3>基金项目</h3>
 		<div class="clear"> </div>
 	</div>
 
 	<div class="about-info">
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;1、国家自然科学基金面上（61672062），构建高可信云操作系统的若干关键技术研究，2017.1-2020.12 </span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;2、国家自然科学基金重点（61232005），云存储的隐私保护与安全保障机制， 2013.1-2017.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;3、国家863计划主题（2015AA016009），云安全的可信服务及在教育云的示范验证，2015.1-2017.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;4、国家自然科学基金青年（61402020），适应用户兴趣漂移的知识结构组织和学习服务推荐方法， 2014.1-2016.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;5、国家科技支撑计划（2012BAH06B01），移动互联网与宽带网融合的在线数据服务平台， 2012.1-2015.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;6、国家自然基金面上项目（61170002），软件外包模型驱动开发方法中模型伪装与转换理论研究， 2012.1-2015.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;7、国家自然科学基金重点（61033005），面向价值的软件服务方法论：理论、方法及应用，2011.1-2014.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;8、国家科技支撑计划（2012BAH18B04），新媒体资源编解码关键技术研究及原型系统， 2012.1-2014.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;9、国家科技支撑计划（2011BAH14B02），新型网络终端操作系统社区版本，2011.1-2013.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;10、国家科技重大专项，基于解释型语言的移动应用安全，2012.1-2013.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;11、国家自然基金面上（61073156），面向可信云服务的广义虚拟可信计算平台关键技术研究， 2011.1-2013.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;12、国家自然科学基金面上（61070237），基于SOM神经网络模型的网络入侵检测方法研究， 2011.1-2013.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;13、丹麦科技创新部重点（2106-08-0046），Services in Context， 2010.1-2013.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;14、国家自然科学基金面上（60970135），可信操作系统的基本理论与关键技术研究， 2010.1-2012.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;15、国家自然科学基金面上项目（60873238），以应用安全为核心的可信虚拟监控器安全机制研究，2009.1-2011.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;16、国家科技重大专项（2009ZX01036-002），国产操作系统参考实现之7，2009.1-2011.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;17、国家863计划（2009AA04Z120），面向服务的供应链协同管理系统，2009.1-2011.12 </span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;18、国家自然科学基金面上（60973001），基于互联网协同实时编辑软件的自动化测试技术， 2010.1-2012.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;19、国家自然科学基金面上（60704027），面向服务的业务协同建模、运行和性能评价研究， 2008.1-2010.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;20、国家科技重大专项（2009ZX01039-001）面向新型网络应用模式的网络化操作系统，，2009.1-2010.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;21、国家863计划（2007AA04Z150），基于本体的集成服务系统，2007.1-2009.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;22、国家科技支撑计划（2005BA115A03），国产基础软件平台体系之14，2005.1-2007.12</span></p>
-		<p><span style="font-size: 14px;">&nbsp;&nbsp;23、国家863计划（306-ZD06-02-9），电视台数字化系统，1999.1-2001.12</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;1、 国家自然科学基金面上项目(61572326)：动态社交网络中群体情感演化计算与分析关键技术研究，2016.1-2019.12。项目负责人 </span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;2、 国家自然科学基金青年基金(61103069)：基于信任链的微博群体情感挖掘研究，2012.1-2014.12。项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;3、中国博士后基金(20110490697)：基于信任传递的微博情感分析研究，2009.9-2011.12。项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;4、上海市人民政府决策咨询研究重点课题(2017-A-049-B): 上海新型智慧城市建设路径与模式创新研究，2017.5-2017.8. 项目负责人</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;5、上海市教委科研创新项目(13YZ052)：基于用户关系的社交网络群组信息共享研究，2013.1-2015.12，项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;6、上海市教育科学规划一般项目(C160049)：大数据视野下智能型在线学习资源模式研究，2016.7-2019.12，项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;7、上海高校青年教师培养资助计划：基于信任的社交网络隐式情感挖掘研究，2013-2015，项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;8、公安部信息安全重点实验室开放项目：社会网络中面向信任的共谋攻击组织发现技术研究，2014.9-2015.12。项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;9、企业委托横向项目：面向医药制造企业的数据处理云服务平台研究，2014.1-2015.12。项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;10、企业委托横向项目：陈家镇智慧社区发展规划，2014.1-2015.12。项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;11、企业委托横向项目：嘉善力通智慧社区大数据分析平台开发，2017.1-2017.12。项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;12、企业委托横向项目：大型企业大数据环境下的信息化关键问题研究，2017.1-2017.11. 项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;13、上海师范大学产学研项目：面向医药制造企业的数据处理云服务平台研究，2013.1-2015.12。项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;14、上海师范大学，校重点实验室、工程中心，探索类平台项目，智能可融合大数据学科平台建设，2017.1-2019.12。项目负责人</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;15、上海师范大学教育教学改革研究项目（通识课程建设）：复杂网络与社会计算概论，2015，项目负责人。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;16、嵌入式系统与服务计算国家教育部重点实验室开放课题“基于情感的混合领域社交网络信息推荐方法研究”（项目编号ESSCKF 2016-01），主持。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;17、上海高校青年教师培养资助计划项目“基于用户情感的重叠社区检测研究”，主持。 </span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;18、嵌入式系统与服务计算国家教育部重点实验室开放课题“基于情感的混合领域社交网络信息推荐方法研究”（项目编号ESSCKF 2016-01），主持。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;19、上海高校青年教师培养资助计划项目“基于用户情感的重叠社区检测研究”，主持。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;20、国家高技术研究发展计划（863计划）课题“软件安全性病态模型及其检测、防治技术研究”（项目编号2009AA01Z401），参与。</span></p>
+		<p><span style="font-size: 14px;">&nbsp;&nbsp;21、上海市基础研究领域重大科技项目“大规模信息流处理计算式的基础研究” (项目编号10DJ1400300)，参与。</span></p>
 	</div>
 
 
 </div>
 </div>
 </div>
+
+<div class="main_bg">
+	<div class="wrap">
+		<div class="main">
+
+			<div class="about-header">
+				<h3>获奖</h3>
+				<div class="clear"> </div>
+			</div>
+			<div class="about-info">
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;1、大规模异质数据采集、管理与智能分析关键技术及应用，国家教育部科技进步二等奖，2015年，第二完成人。 </span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;2、云计算下企业智能决策服务关键技术及应用,上海市科技进步奖二等奖, 2014年，第三完成人。</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;3、大规模异质数据采集、管理与智能化服务关键技术及应用, 上海市科技进步奖二等奖, 2016年，第三完成人。</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;4、面向复杂问题结构可计算的决策支持系统研究与应用，国家教育部科技进步二等奖，2010年，第四完成人。</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;5、大数据存储与查询平台关键技术，首届中国高校科技成果交易会优秀展示奖，2017年，第一完成人</span></p>
+				<p><span style="font-size: 14px;">&nbsp;&nbsp;6、互联网舆情大数据管理、分析系统平台，第十九届中国国际工业博览会中国高校展区优秀展品二等奖，2017年，第一完成人</span></p>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
 <!--footer1-->
 <div class="ftr-bg">
 	<div class="wrap">
