@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f5da609-3653-48be-aab7-477f919e0929" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner1.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/static/images/new/banner2.jpg" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/static/images/new/banner1.jpg" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/static/images/new/banner1.jpg" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/static/images/new/banner2.jpg" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/static/images/new/banner2.jpg" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/static/images/new/banner3.jpg" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/static/images/new/banner3.jpg" />
-    </list>
+    <list default="true" id="0f5da609-3653-48be-aab7-477f919e0929" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -444,12 +437,12 @@
       <workItem from="1524371310900" duration="5408000" />
       <workItem from="1524377266214" duration="1323000" />
       <workItem from="1524468476514" duration="3779000" />
-      <workItem from="1524529661515" duration="796000" />
+      <workItem from="1524529661515" duration="1058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19960000" />
+    <option name="totallyTimeSpent" value="20222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1382" height="777" extended-state="0" />
@@ -465,7 +458,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.49710566" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49710566" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.293617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
