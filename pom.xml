@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.shnu</groupId>
-  <artifactId>BigDataLibrary</artifactId>
+  <artifactId>backend</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>BigDataLibrary Maven Webapp</name>
+  <name>backend Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <build>
     <finalName>ssm</finalName>
@@ -16,8 +16,11 @@
         <artifactId>mybatis-generator-maven-plugin</artifactId>
         <version>1.3.2</version>
         <configuration>
+
           <verbose>true</verbose>
           <overwrite>true</overwrite>
+
+
         </configuration>
       </plugin>
     </plugins>
@@ -183,6 +186,25 @@
             <version>1.3.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk16</artifactId>
+            <version>1.46</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.9</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>2.4</version>
+            <classifier>jdk15</classifier>
+        </dependency>
     </dependencies>
 
 
