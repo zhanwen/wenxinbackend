@@ -40,9 +40,9 @@ public class BackController {
         }
 
         //小程序唯一标识   (在微信小程序管理后台获取)
-        String wxspAppid = "xxxxxxxxxxxxxx";
+        String wxspAppid = "wxc3ffbed8d919d1e9";
         //小程序的 app secret (在微信小程序管理后台获取)
-        String wxspSecret = "xxxxxxxxxxxxxx";
+        String wxspSecret = "2372d78126cbe586e169fff1ae1f8ec4";
         //授权（必填）
         String grant_type = "authorization_code";
 
